@@ -23,12 +23,13 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 import AddIcon from "@mui/icons-material/Add";
+import AlertsModal from "./AlertsModal";
 
 const drawerWidth = 240;
 const Navigation: React.FC = (props) => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const handleClose = (data: boolean) => setOpen(data);
   const { dashboards, setDashboards } = React.useContext(UserContext);
   const ShowDashboardHandler = () => setDashboards(!dashboards);
   const router = useRouter();
@@ -146,73 +147,7 @@ const Navigation: React.FC = (props) => {
         <Toolbar />
         {props.children}
       </Box>
-      <Modal open={open} onClose={handleClose}>
-        <Box
-          sx={{
-            bgcolor: "background.default",
-            width: 900,
-            mx: "auto",
-            marginTop: "30vh",
-            boxShadow: 24,
-            borderRadius: 1,
-            p: 3,
-          }}
-        >
-          <Typography variant="h6">Fixed Alerts</Typography>
-          <Box sx={{ display: "flex", my: 2 }}>
-            <Typography sx={{ mr: 3 }} variant="body1">
-              If Events are Canceled
-            </Typography>
-            <Typography sx={{ mr: 3 }} variant="body1">
-              If Runners are Scratched
-            </Typography>
-            <Typography variant="body1">If there are Jockey Changes</Typography>
-          </Box>
-          <Typography variant="h6">Set Alerts</Typography>
-          <FormGroup row>
-            <FormControlLabel
-              control={<Checkbox defaultChecked />}
-              label="Changes in Track Condition"
-            />
-            <FormControlLabel
-              control={<Checkbox />}
-              label="Amount of Bets on Runner within Time Span"
-            />
-            <FormControlLabel
-              control={<Checkbox />}
-              label="Events are Delayed"
-            />
-            <FormControlLabel
-              control={<Checkbox />}
-              label="Changes in Market Movement"
-            />
-            <FormControlLabel control={<Checkbox />} label="Race Alerts" />
-            <FormControlLabel
-              control={<Checkbox />}
-              label="Jockeys with Select Runners"
-            />
-            <FormControlLabel
-              control={<Checkbox />}
-              label="Wagers over X Amount"
-            />
-            <FormControlLabel
-              control={<Checkbox />}
-              label="Market Coverage Falls"
-            />
-          </FormGroup>
-          <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
-            <Button
-              onClick={handleClose}
-              color="error"
-              sx={{ mr: 2 }}
-              variant="contained"
-            >
-              CANCEL
-            </Button>
-            <Button variant="contained">CONFIRM</Button>
-          </Box>
-        </Box>
-      </Modal>
+      <AlertsModal open={open} closeHandler={handleClose} />
     </Box>
   );
 };

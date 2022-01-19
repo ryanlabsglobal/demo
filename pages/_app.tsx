@@ -30,6 +30,13 @@ function MyApp({ Component, pageProps }: AppProps) {
           },
         },
       },
+      MuiCheckbox: {
+        styleOverrides: {
+          root: {
+            color: "#ffffff",
+          },
+        },
+      },
     },
     palette: {
       primary: {
