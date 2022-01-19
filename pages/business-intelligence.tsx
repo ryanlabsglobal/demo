@@ -25,12 +25,12 @@ const Business: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Grid sx={{ mt: 1 }} container spacing={2}>
-        <Grid xs={8} item>
+        <Grid sm={12} md={12} lg={7} xl={8} item>
           <Box sx={{ mb: 2 }}>
             <Image layout="responsive" src={g} alt="fucking image" />
           </Box>
           <Grid container spacing={2}>
-            <Grid item xs={6}>
+            <Grid item xs={12} md={12} lg={6}>
               <Box sx={{ mb: 2 }}>
                 <Image layout="responsive" src={c} alt="fucking image" />
               </Box>
@@ -44,7 +44,7 @@ const Business: NextPage = () => {
                 <Image layout="responsive" src={i} alt="fucking image" />
               </Box>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12} md={12} lg={6}>
               <Box sx={{ mb: 2 }}>
                 <Image layout="responsive" src={e} alt="fucking image" />
               </Box>
@@ -60,7 +60,7 @@ const Business: NextPage = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item sm={12} md={12} lg={5} xl={4}>
           <TradingParameters />
         </Grid>
       </Grid>
