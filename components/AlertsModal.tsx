@@ -9,6 +9,7 @@ import Typography from "@mui/material/Typography";
 import ChangesInTrackCondition from "./AlertsModalSet/ChangesInTrackCondition";
 import AmountOfBetsOnRunnerWithinTimeSpan from "./AlertsModalSet/AmountOfBetsOnRunnerWithinTimeSpan";
 import EventsAreDelayed from "./AlertsModalSet/EventsAreDelayed";
+import Grid from "@mui/material/Grid";
 
 interface AlertProps {
   open: boolean;
@@ -22,7 +23,7 @@ const AlertsModal: React.FC<AlertProps> = ({ open, closeHandler }) => {
         <Box
           sx={{
             bgcolor: "background.default",
-            width: 900,
+            width: 950,
             mx: "auto",
             marginTop: "30vh",
             boxShadow: 24,
@@ -42,26 +43,44 @@ const AlertsModal: React.FC<AlertProps> = ({ open, closeHandler }) => {
           </Box>
           <Typography variant="h6">Set Alerts</Typography>
           <FormGroup row>
-            <ChangesInTrackCondition />
-            <AmountOfBetsOnRunnerWithinTimeSpan />
-            <EventsAreDelayed />
-            <FormControlLabel
-              control={<Checkbox />}
-              label="Changes in Market Movement"
-            />
-            <FormControlLabel control={<Checkbox />} label="Race Alerts" />
-            <FormControlLabel
-              control={<Checkbox />}
-              label="Jockeys with Select Runners"
-            />
-            <FormControlLabel
-              control={<Checkbox />}
-              label="Wagers over X Amount"
-            />
-            <FormControlLabel
-              control={<Checkbox />}
-              label="Market Coverage Falls"
-            />
+            <Grid container>
+              <Grid item xs={4}>
+                <ChangesInTrackCondition />
+              </Grid>
+              <Grid item xs={4}>
+                <AmountOfBetsOnRunnerWithinTimeSpan />
+              </Grid>
+              <Grid item xs={4}>
+                <EventsAreDelayed />
+              </Grid>
+              <Grid item xs={4}>
+                <FormControlLabel
+                  control={<Checkbox />}
+                  label="Changes in Market Movement"
+                />
+              </Grid>
+              <Grid item xs={4}>
+                <FormControlLabel control={<Checkbox />} label="Race Alerts" />
+              </Grid>
+              <Grid item xs={4}>
+                <FormControlLabel
+                  control={<Checkbox />}
+                  label="Jockeys with Select Runners"
+                />
+              </Grid>
+              <Grid item xs={4}>
+                <FormControlLabel
+                  control={<Checkbox />}
+                  label="Wagers over X Amount"
+                />
+              </Grid>
+              <Grid item xs={4}>
+                <FormControlLabel
+                  control={<Checkbox />}
+                  label="Market Coverage Falls"
+                />
+              </Grid>
+            </Grid>
           </FormGroup>
           <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
             <Button

@@ -17,11 +17,7 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import { TextField } from "@mui/material";
 import { InputAdornment } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
-import Modal from "@mui/material/Modal";
 import { Button } from "@mui/material";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
 import AddIcon from "@mui/icons-material/Add";
 import AlertsModal from "./AlertsModal";
 
@@ -140,10 +136,7 @@ const Navigation: React.FC = (props) => {
           )}
         </List>
       </Drawer>
-      <Box
-        component="main"
-        sx={{ flexGrow: 1, bgcolor: "background.default", p: 1 }}
-      >
+      <Box component="main" sx={{ flexGrow: 1, bgcolor: "background.default" }}>
         <Toolbar />
         {props.children}
       </Box>
