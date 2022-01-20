@@ -11,7 +11,6 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { useRouter } from "next/router";
 import UserContext from "../store/UserContext";
-import Avatar from "@mui/material/Avatar";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { TextField } from "@mui/material";
@@ -20,6 +19,8 @@ import SearchIcon from "@mui/icons-material/Search";
 import { Button } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import AlertsModal from "./AlertsModal";
+import logo from "../assets/logo.png";
+import Image from "next/image";
 
 const drawerWidth = 260;
 const Navigation: React.FC = (props) => {
@@ -49,7 +50,8 @@ const Navigation: React.FC = (props) => {
         }}
       >
         <Toolbar>
-          <Typography variant="h6" noWrap component="div">
+          <Image width={60} height={40} src={logo} />
+          <Typography sx={{ ml: 2 }} variant="h6" noWrap component="div">
             Business Intelligence
           </Typography>
           {router.pathname === "/player-profiles" && (
@@ -101,10 +103,7 @@ const Navigation: React.FC = (props) => {
             <ListItemText primary="GLOBAL BETSTREAM" />
           </ListItem>
           <ListItem button sx={active} onClick={ShowDashboardHandler}>
-            <ListItemText
-              primary="DASHBOARDS"
-              primaryTypographyProps={{ fontWeight: "bold" }}
-            />
+            <ListItemText primary="DASHBOARDS" />
           </ListItem>
           {dashboards && (
             <React.Fragment>
