@@ -28,10 +28,13 @@ const Navigation: React.FC = (props) => {
   const handleClose = (data: boolean) => setOpen(data);
   const { dashboards, setDashboards } = React.useContext(UserContext);
   const ShowDashboardHandler = () => setDashboards(!dashboards);
-  const active = {
-    backgroundColor: "rgba(0, 0, 0, 0.6)",
-    "&:hover": { backgroundColor: "rgba(0, 0, 0, 0.55)" },
-  };
+  let active;
+  if (dashboards === true) {
+    active = {
+      bgcolor: "rgba(0, 0, 0, 0.6)",
+      "&:hover": { bgcolor: "rgba(0, 0, 0, 0.55)" },
+    };
+  }
   const router = useRouter();
   return (
     <Box sx={{ display: "flex" }}>
@@ -97,11 +100,7 @@ const Navigation: React.FC = (props) => {
           <ListItem button>
             <ListItemText primary="GLOBAL BETSTREAM" />
           </ListItem>
-          <ListItem
-            button
-            sx={dashboards && active}
-            onClick={ShowDashboardHandler}
-          >
+          <ListItem button sx={active} onClick={ShowDashboardHandler}>
             <ListItemText
               primary="DASHBOARDS"
               primaryTypographyProps={{ fontWeight: "bold" }}
