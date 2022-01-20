@@ -21,13 +21,17 @@ import { Button } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import AlertsModal from "./AlertsModal";
 
-const drawerWidth = 240;
+const drawerWidth = 260;
 const Navigation: React.FC = (props) => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = (data: boolean) => setOpen(data);
   const { dashboards, setDashboards } = React.useContext(UserContext);
   const ShowDashboardHandler = () => setDashboards(!dashboards);
+  const active = {
+    backgroundColor: "rgba(0, 0, 0, 0.6)",
+    "&:hover": { backgroundColor: "rgba(0, 0, 0, 0.55)" },
+  };
   const router = useRouter();
   return (
     <Box sx={{ display: "flex" }}>
@@ -86,54 +90,87 @@ const Navigation: React.FC = (props) => {
         anchor="left"
       >
         <Toolbar />
-        <Avatar sx={{ ml: 2 }}>S</Avatar>
-        <Typography variant="subtitle1" sx={{ ml: 1, mt: 2 }}>
-          Shane Clarke
-        </Typography>
-        <Typography variant="caption" sx={{ ml: 1 }}>
-          Executive Director @ RACELABS
-        </Typography>
-        <Divider sx={{ width: "70%", mt: 3, ml: 1, borderColor: "#ffffff" }} />
-        <Typography variant="h4" sx={{ ml: 1, mt: 2 }}>
-          ODDS ENGINE +
-        </Typography>
         <List>
           <ListItem button>
-            <ListItemText primary="Settings" />
+            <ListItemText primary="GLOBAL OPERATORS" />
           </ListItem>
-          <Divider />
-          <ListItem onClick={ShowDashboardHandler} button>
+          <ListItem button>
+            <ListItemText primary="GLOBAL BETSTREAM" />
+          </ListItem>
+          <ListItem
+            button
+            sx={dashboards && active}
+            onClick={ShowDashboardHandler}
+          >
             <ListItemText
-              primary="Dashboards"
+              primary="DASHBOARDS"
               primaryTypographyProps={{ fontWeight: "bold" }}
             />
           </ListItem>
-          <Divider />
           {dashboards && (
             <React.Fragment>
               <ListItem
+                sx={{
+                  bgcolor: "rgba(0, 0, 0, 0.4)",
+                  "&:hover": { bgcolor: "rgba(0, 0, 0, 0.35)" },
+                }}
                 button
                 onClick={() => router.push("/business-intelligence")}
               >
                 {router.pathname === "/business-intelligence" && (
                   <ArrowForwardIosIcon fontSize="small" />
                 )}
-                <ListItemText primary="Business Intelligence" />
+                <ListItemText primary="BUSINESS INTELLIGENCE" />
               </ListItem>
-              <Divider />
             </React.Fragment>
           )}
           {dashboards && (
             <React.Fragment>
-              <ListItem button onClick={() => router.push("/player-profiles")}>
+              <ListItem
+                sx={{
+                  bgcolor: "rgba(0, 0, 0, 0.4)",
+                  "&:hover": { bgcolor: "rgba(0, 0, 0, 0.35)" },
+                }}
+                button
+                onClick={() => router.push("/player-profiles")}
+              >
                 {router.pathname === "/player-profiles" && (
                   <ArrowForwardIosIcon fontSize="small" />
                 )}
-                <ListItemText primary="Player Profiles" />
+                <ListItemText primary="PLAYER PROFILES" />
               </ListItem>
-              <Divider />
             </React.Fragment>
           )}
+          <ListItem button>
+            <ListItemText primary="THOROUGHBRED" />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary="HARNESS" />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary="GREAYHOUND" />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary="MARKET MAKING" />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary="FUND MANAGEMENT" />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary="TRADING" />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary="ARCHIVE" />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary="CLIENTS" />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary="SETTINGS" />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary="ADMINISTRATION" />
+          </ListItem>
         </List>
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1, bgcolor: "background.default" }}>
