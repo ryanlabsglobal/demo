@@ -13,12 +13,12 @@ import { useRouter } from "next/router";
 import UserContext from "../store/UserContext";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import NotificationsIcon from "@mui/icons-material/Notifications";
-import { TextField } from "@mui/material";
+import { Avatar, TextField } from "@mui/material";
 import { InputAdornment } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import { Button } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
-import AlertsModal from "./AlertsModal";
+import AlertsModal from "./AlertModalSelection/AlertModal";
 import logo from "../assets/logo.png";
 import Image from "next/image";
 
@@ -69,14 +69,7 @@ const Navigation: React.FC = (props) => {
             />
           )}
           <Box sx={{ ml: "auto", mr: 3 }}>
-            <Button
-              endIcon={<AddIcon />}
-              onClick={handleOpen}
-              sx={{ mr: 3 }}
-              variant="contained"
-            >
-              Alerts
-            </Button>
+            <AlertsModal />
             <NotificationsIcon />
           </Box>
         </Toolbar>
@@ -96,15 +89,34 @@ const Navigation: React.FC = (props) => {
       >
         <Toolbar />
         <List>
+          <Box sx={{ ml: 2, mb: 3 }}>
+            <Avatar>S</Avatar>
+            <Typography sx={{ mt: 1 }} variant="body1">
+              SHANE CLARKE
+            </Typography>
+            <Typography variant="caption">
+              Executive Director @ RACELABS
+            </Typography>
+          </Box>
+          <Divider
+            sx={{
+              borderColor: "rgba(255, 255, 255, 0.3)",
+              width: "65%",
+              ml: 2,
+            }}
+          />
+          <Typography sx={{ mt: 2, ml: 2, mb: 1 }} variant="h6">
+            ODDS ENGINE +
+          </Typography>
+
           <ListItem button>
-            <ListItemText primary="GLOBAL OPERATORS" />
+            <ListItemText primary="SETTINGS" />
           </ListItem>
-          <ListItem button>
-            <ListItemText primary="GLOBAL BETSTREAM" />
-          </ListItem>
+          <Divider />
           <ListItem button sx={active} onClick={ShowDashboardHandler}>
             <ListItemText primary="DASHBOARDS" />
           </ListItem>
+
           {dashboards && (
             <React.Fragment>
               <ListItem
@@ -139,43 +151,12 @@ const Navigation: React.FC = (props) => {
               </ListItem>
             </React.Fragment>
           )}
-          <ListItem button>
-            <ListItemText primary="THOROUGHBRED" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="HARNESS" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="GREAYHOUND" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="MARKET MAKING" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="FUND MANAGEMENT" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="TRADING" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="ARCHIVE" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="CLIENTS" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="SETTINGS" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="ADMINISTRATION" />
-          </ListItem>
         </List>
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1, bgcolor: "background.default" }}>
         <Toolbar />
         {props.children}
       </Box>
-      <AlertsModal open={open} closeHandler={handleClose} />
     </Box>
   );
 };
