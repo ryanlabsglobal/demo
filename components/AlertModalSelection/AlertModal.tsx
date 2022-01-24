@@ -6,7 +6,8 @@ import Modal from "@mui/material/Modal";
 import { Grid } from "@mui/material";
 import { Divider } from "@mui/material";
 import Image from "next/image";
-import ChangesInTrackCondition from "./ChangesInTrackCondition";
+import RaceAlerts from "./RaceAlerts";
+import AddIcon from "@mui/icons-material/Add";
 
 //SVG place holders
 import runner from "../../assets/runnerBets_tabContent.svg";
@@ -35,7 +36,12 @@ const AlertModal = () => {
   const handleClose = () => setOpen(false);
   return (
     <React.Fragment>
-      <Button variant="contained" sx={{ mr: 3 }} onClick={handleOpen}>
+      <Button
+        variant="contained"
+        sx={{ mr: 3 }}
+        endIcon={<AddIcon />}
+        onClick={handleOpen}
+      >
         ALERTS
       </Button>
       <Modal open={open} onClose={handleClose}>
@@ -147,7 +153,7 @@ const AlertModal = () => {
             <Grid item xs={8}>
               <Box>
                 {page === "RACE ALERTS" && (
-                  <ChangesInTrackCondition closeHandler={handleClose} />
+                  <RaceAlerts closeHandler={handleClose} />
                 )}
                 {page === "CHANGES IN TRACK CONDITION" && (
                   <Box sx={{ marginTop: "20%" }}>
