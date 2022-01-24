@@ -11,6 +11,7 @@ import { InputLabel } from "@mui/material";
 import { MenuItem } from "@mui/material";
 import { FormControl } from "@mui/material";
 import { Slider } from "@mui/material";
+import { Button } from "@mui/material";
 
 const TradingParamsBottomBar = () => {
   const [open, setOpen] = React.useState(false);
@@ -83,7 +84,8 @@ const TradingParamsBottomBar = () => {
             width: `calc(100% - 300px)`,
             borderRadius: 2,
             px: 3,
-            height: "60%",
+            height: "60vh",
+            minHeight: "570px",
           }}
         >
           <Box
@@ -114,49 +116,49 @@ const TradingParamsBottomBar = () => {
           <Grid container>
             <Grid item xs={6}>
               <Grid container>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel
                     control={<Checkbox defaultChecked />}
                     label="AUSTRALIA"
                   />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel
                     control={<Checkbox />}
                     label="UNITED KINGDOM"
                   />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel
                     control={<Checkbox />}
                     label="SOUTH AFRICA"
                   />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel
                     control={<Checkbox />}
                     label="NEW ZEALAND"
                   />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel control={<Checkbox />} label="IRELAND" />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel control={<Checkbox />} label="HONG KONG" />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel control={<Checkbox />} label="USA / CA" />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel control={<Checkbox />} label="FRANCE" />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel control={<Checkbox />} label="SINGAPORE" />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel control={<Checkbox />} label="JAPAN" />
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControlLabel
                     control={<Checkbox />}
                     label="OTHER (I.E SWEDEN, MEXICO"
@@ -169,7 +171,7 @@ const TradingParamsBottomBar = () => {
                 OTHER FILTERS
               </Typography>
               <Grid container spacing={1}>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControl sx={{ mb: 1 }} fullWidth>
                     <InputLabel sx={{ color: "white" }}>VENUE</InputLabel>
                     <Select
@@ -187,7 +189,7 @@ const TradingParamsBottomBar = () => {
                     </Select>
                   </FormControl>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControl sx={{ mb: 1 }} fullWidth>
                     <InputLabel sx={{ color: "white" }}>LEVEL</InputLabel>
                     <Select
@@ -205,7 +207,7 @@ const TradingParamsBottomBar = () => {
                     </Select>
                   </FormControl>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControl sx={{ mb: 1 }} fullWidth>
                     <InputLabel sx={{ color: "white" }}>PRODUCT</InputLabel>
                     <Select
@@ -223,7 +225,7 @@ const TradingParamsBottomBar = () => {
                     </Select>
                   </FormControl>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControl sx={{ mb: 1 }} fullWidth>
                     <InputLabel sx={{ color: "white" }}>WIN / PLACE</InputLabel>
                     <Select
@@ -241,7 +243,7 @@ const TradingParamsBottomBar = () => {
                     </Select>
                   </FormControl>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControl sx={{ mb: 1 }} fullWidth>
                     <InputLabel sx={{ color: "white" }}>FIELD SIZE</InputLabel>
                     <Select
@@ -259,7 +261,7 @@ const TradingParamsBottomBar = () => {
                     </Select>
                   </FormControl>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControl sx={{ mb: 1 }} fullWidth>
                     <InputLabel sx={{ color: "white" }}>GOING</InputLabel>
                     <Select
@@ -277,7 +279,7 @@ const TradingParamsBottomBar = () => {
                     </Select>
                   </FormControl>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={6} sm={12}>
                   <FormControl sx={{ mb: 1 }} fullWidth>
                     <InputLabel sx={{ color: "white" }}>DAY OF WEEK</InputLabel>
                     <Select
@@ -405,6 +407,14 @@ const TradingParamsBottomBar = () => {
               </Grid>
             </Grid>
           </Grid>
+          <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
+            <Button onClick={closeHandler} color="error" variant="contained">
+              CLEAR
+            </Button>
+            <Button sx={{ ml: 2 }} variant="contained">
+              GENERATE
+            </Button>
+          </Box>
         </Box>
       </Modal>
     </React.Fragment>
