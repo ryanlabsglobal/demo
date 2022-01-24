@@ -6,7 +6,7 @@ import AuthComponent from "../lib/AuthComponent";
 import TradingParamsBottomBar from "../components/TradingParamsBottomBar";
 import { useRouter } from "next/router";
 
-import tempDash from "../assets//playerTable_pageContent.svg";
+import tempDash from "../assets/playerTable_pageContent_v2 (1).svg";
 import { Box } from "@mui/system";
 
 const PlayerProfiles: NextPage = () => {
@@ -19,7 +19,7 @@ const PlayerProfiles: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Box sx={{ mb: "50px" }}>
-        <Box onClick={() => router.push("./player-profiles/fsadfsdafsdffd")}>
+        <Box onClick={() => router.push("./player-profiles/20350")}>
           <Image layout="responsive" src={tempDash} />
         </Box>
       </Box>

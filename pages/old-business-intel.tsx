@@ -1,27 +1,22 @@
-import { useRouter } from "next/router";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import AuthComponent from "../../lib/AuthComponent";
+import AuthComponent from "../lib/AuthComponent";
 import { Grid } from "@mui/material";
-
-import g from "../../assets/bet statistics.png";
-import c from "../../assets/day of week.png";
-import e from "../../assets/generosity.png";
-import h from "../../assets/key customers.png";
-import k from "../../assets/odds range.png";
-import f from "../../assets/product type.png";
-import d from "../../assets/profit and loss.png";
-import j from "../../assets/time series.png";
+import TradingParameters from "../components/TradingParameters";
+import g from "../assets/bet statistics.png";
+import c from "../assets/day of week.png";
+import e from "../assets/generosity.png";
+import h from "../assets/key customers.png";
+import k from "../assets/odds range.png";
+import f from "../assets/product type.png";
+import d from "../assets/profit and loss.png";
+import j from "../assets/time series.png";
 import { Box } from "@mui/system";
-import TradingParamsBottomBar from "../../components/TradingParamsBottomBar";
+import TradingParamsBottomBar from "../components/TradingParamsBottomBar";
 
-import React from "react";
-
-const PlayerProfile: NextPage = () => {
-  const router = useRouter();
-  console.log(router.pathname);
+const Business: NextPage = () => {
   return (
     <div>
       <Head>
@@ -63,4 +58,4 @@ const PlayerProfile: NextPage = () => {
   );
 };
 
-export default AuthComponent(PlayerProfile);
+export default AuthComponent(Business);

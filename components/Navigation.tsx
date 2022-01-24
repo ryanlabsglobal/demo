@@ -51,10 +51,36 @@ const Navigation: React.FC = (props) => {
       >
         <Toolbar>
           <Image width={60} height={40} src={logo} />
-          <Typography sx={{ ml: 2 }} variant="h6" noWrap component="div">
-            Business Intelligence
-          </Typography>
+          {router.pathname === "/business-intelligence" && (
+            <Typography sx={{ ml: 2 }} variant="h6" noWrap component="div">
+              Business Intelligence
+            </Typography>
+          )}
           {router.pathname === "/player-profiles" && (
+            <Typography sx={{ ml: 2 }} variant="h6" noWrap component="div">
+              Player Profiles
+            </Typography>
+          )}
+          {router.pathname === "/player-profiles/[id]" && (
+            <Typography sx={{ ml: 2 }} variant="h6" noWrap component="div">
+              Player Profiles
+            </Typography>
+          )}
+          {router.pathname === "/player-profiles" && (
+            <TextField
+              sx={{ mx: 2 }}
+              placeholder="Search"
+              variant="filled"
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position="start">
+                    <SearchIcon />
+                  </InputAdornment>
+                ),
+              }}
+            />
+          )}
+          {router.pathname === "/player-profiles/[id]" && (
             <TextField
               sx={{ mx: 2 }}
               placeholder="Search"

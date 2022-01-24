@@ -14,6 +14,7 @@ import f from "../assets/product type.png";
 import d from "../assets/profit and loss.png";
 import j from "../assets/time series.png";
 import { Box } from "@mui/system";
+import dash from "../assets/dashCont_filterBy_lrg.svg";
 import TradingParamsBottomBar from "../components/TradingParamsBottomBar";
 
 const Business: NextPage = () => {
