@@ -47,7 +47,7 @@ const TradingParamsBottomBar = () => {
             right: 20,
             width: `calc(100% - 300px)`,
             borderRadius: 2,
-            px: 1,
+
             border: "1px solid #fff",
             minWidth: "600px",
           }}

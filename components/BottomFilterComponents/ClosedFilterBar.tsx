@@ -11,14 +11,14 @@ const ClosedFilterBar = () => {
   const large = useMediaQuery(theme.breakpoints.up("lg"));
   const smallFont = {
     fontSize: "10px",
-    color: "rgba(225, 225, 225, .5)",
+    color: "rgba(225, 225, 225, .38)",
   };
   const smallFontTitle = {
     fontSize: "10px",
   };
   const largeFont = {
     fontSize: "12px",
-    color: "rgba(225, 225, 225, .5)",
+    color: "rgba(225, 225, 225, .38)",
   };
   const largeFontTitle = {
     fontSize: "12px",
@@ -30,8 +30,8 @@ const ClosedFilterBar = () => {
         sx={{
           display: "flex",
           justifyContent: "space-between",
-          mx: 3,
-          p: 1,
+          paddingX: "16px",
+          paddingY: "8px",
         }}
       >
         <Box sx={{ flexBasis: "45%" }}>
@@ -48,7 +48,7 @@ const ClosedFilterBar = () => {
               <Typography
                 sx={{
                   fontSize: "12px",
-                  color: "rgba(225, 225, 225, .5)",
+                  color: "rgba(225, 225, 225, .6)",
                   textDecoration: "underline",
                 }}
                 variant="body2"
@@ -94,8 +94,9 @@ const ClosedFilterBar = () => {
         display: "flex",
         justifyContent: "space-between",
         flexGrow: 1,
-        mx: 1,
-        rowGap: "5px",
+        rowGap: "10px",
+        paddingX: "16px",
+        paddingY: "8px",
       }}
     >
       <Box sx={{ flexBasis: "40%" }}>
