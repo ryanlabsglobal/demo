@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/player-profiles.js"
-    ],
-    "/player-profiles/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/player-profiles/[id].js"
     ]
   },
   "ampFirstPages": []
