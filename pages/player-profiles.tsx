@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import AuthComponent from "../lib/AuthComponent";
-import TradingParamsBottomBar from "../components/TradingParamsBottomBar";
+import TradingParamsBottomBar from "../components/BottomFilterComponents/TradingParamsBottomBar";
 import { useRouter } from "next/router";
 
 import tempDash from "../assets/playerTable_pageContent_v2 (1).svg";
