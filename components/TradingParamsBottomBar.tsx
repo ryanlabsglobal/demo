@@ -12,6 +12,9 @@ import { MenuItem } from "@mui/material";
 import { FormControl } from "@mui/material";
 import { Slider } from "@mui/material";
 import { Button } from "@mui/material";
+import CalPlaceHolder from "../assets/calplaceholder.png";
+import Image from "next/image";
+import ClosedFilterBar from "./BottomFilterComponents/ClosedFilterBar";
 
 const TradingParamsBottomBar = () => {
   const [open, setOpen] = React.useState(false);
@@ -29,6 +32,7 @@ const TradingParamsBottomBar = () => {
   const [timeSeriesRange, setTimeSeriesRange] = React.useState<number[]>([
     20, 37,
   ]);
+
   const [timeSeriesRangeToggle, setTimeSeriesRangeToggle] =
     React.useState(true);
   return (
@@ -43,35 +47,12 @@ const TradingParamsBottomBar = () => {
             right: 20,
             width: `calc(100% - 300px)`,
             borderRadius: 2,
-            px: 3,
+            px: 1,
             border: "1px solid #fff",
+            minWidth: "600px",
           }}
         >
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "space-between",
-            }}
-          >
-            <Box sx={{ my: "auto" }}>
-              <div style={{ display: "flex" }}>
-                <AccountBalanceWalletIcon />
-                <Typography sx={{ ml: 2 }} variant="subtitle2">
-                  FILTER BY
-                </Typography>
-              </div>
-            </Box>
-            <Box>
-              <FormGroup sx={{ m: 2 }} row>
-                <FormControlLabel
-                  control={<Checkbox defaultChecked />}
-                  label="THROUGHBRED"
-                />
-                <FormControlLabel control={<Checkbox />} label="GREYHOUNDS" />
-                <FormControlLabel control={<Checkbox />} label="HARNESS" />
-              </FormGroup>
-            </Box>
-          </Box>
+          <ClosedFilterBar />
         </Box>
       )}
       <Modal open={open} onClose={closeHandler}>
@@ -84,8 +65,9 @@ const TradingParamsBottomBar = () => {
             width: `calc(100% - 300px)`,
             borderRadius: 2,
             px: 3,
-            height: "60vh",
             minHeight: "570px",
+            height: "50vh",
+            overflowY: "scroll",
           }}
         >
           <Box
@@ -165,6 +147,7 @@ const TradingParamsBottomBar = () => {
                   />
                 </Grid>
               </Grid>
+              <Image src={CalPlaceHolder} layout="responsive" />
             </Grid>
             <Grid xs={6} item>
               <Typography sx={{ mb: 2 }} variant="h6">
@@ -407,7 +390,7 @@ const TradingParamsBottomBar = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
+          <Box sx={{ display: "flex", justifyContent: "flex-end", mb: 2 }}>
             <Button onClick={closeHandler} color="error" variant="contained">
               CLEAR
             </Button>

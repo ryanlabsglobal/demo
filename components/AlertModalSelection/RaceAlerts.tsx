@@ -55,7 +55,7 @@ const RaceAlerts: React.FC<ChangesInTrackConditionInterface> = (props) => {
               value={enabled}
               onChange={(e) => setEnabled(e.target.checked)}
               color="success"
-            />{" "}
+            />
             <br />
             {!enabled ? (
               <Typography>Disabled</Typography>
