@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import UserContext from "../store/UserContext";
-import Navigation from "../components/Navigation";
+import Navigation from "../components/Navigation/Navigation";
 
 const AuthComponent = (WrappedComponent: any) => {
   return function NewComponent(props: FC) {
