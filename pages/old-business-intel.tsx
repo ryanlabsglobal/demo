@@ -4,7 +4,6 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import AuthComponent from "../lib/AuthComponent";
 import { Grid } from "@mui/material";
-import TradingParameters from "../components/TradingParameters";
 import g from "../assets/bet statistics.png";
 import c from "../assets/day of week.png";
 import e from "../assets/generosity.png";
@@ -14,6 +13,7 @@ import f from "../assets/product type.png";
 import d from "../assets/profit and loss.png";
 import j from "../assets/time series.png";
 import { Box } from "@mui/system";
+import dash from "../assets/dashCont_filterBy_lrg.svg";
 import TradingParamsBottomBar from "../components/TradingParamsBottomBar";
 
 const Business: NextPage = () => {
