@@ -12,6 +12,8 @@ import AlertsModal from "../AlertModalSelection/AlertModal";
 import logo from "../../assets/logo.png";
 import Image from "next/image";
 
+//The main component for the navbar is Navigation.tsx
+
 const drawerWidth = 260;
 
 const TopBarNav = () => {

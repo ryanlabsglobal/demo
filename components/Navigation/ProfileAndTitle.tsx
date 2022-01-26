@@ -3,6 +3,9 @@ import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
 import Avatar from "@mui/material/Avatar";
+
+//The main component for the navbar is Navigation.tsx
+
 const ProfileAndTitle = () => {
   return (
     <React.Fragment>

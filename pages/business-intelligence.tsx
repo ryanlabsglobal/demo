@@ -1,10 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import AuthComponent from "../lib/AuthComponent";
-import { Grid } from "@mui/material";
-import { Box } from "@mui/system";
+import Box from "@mui/system/Box";
 import Dash1 from "../assets/dashCont_busIntl_row1 (1).svg";
 import Dash2 from "../assets/dashCont_busIntl_row2 (1).svg";
 import Dash3 from "../assets/dashCont_busIntl_row3 (1).svg";

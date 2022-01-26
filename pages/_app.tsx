@@ -4,6 +4,9 @@ import { ContextProvider } from "../store/ContextProvider";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
+//The theme variable creates a custom theme for Material UI
+//This allows us to have consistant components and steamlines the build process
+
 function MyApp({ Component, pageProps }: AppProps) {
   const theme = createTheme({
     components: {

@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/business-intelligence.js"
     ],
-    "/player-profiles": [
+    "/player-profiles/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/player-profiles.js"
+      "static/chunks/pages/player-profiles/[id].js"
     ]
   },
   "ampFirstPages": []

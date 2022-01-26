@@ -5,6 +5,8 @@ import UserContext from "../../store/UserContext";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useRouter } from "next/router";
 
+//The main component for the navbar is Navigation.tsx
+
 const DashboardsDropDown = () => {
   const router = useRouter();
   const { dashboards, setDashboards } = React.useContext(UserContext);
