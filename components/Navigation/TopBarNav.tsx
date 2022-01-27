@@ -35,6 +35,11 @@ const TopBarNav = () => {
             Business Intelligence
           </Typography>
         )}
+        {router.pathname === "/bet-stream" && (
+          <Typography sx={{ ml: 2 }} variant="h6" noWrap component="div">
+            Bet Stream
+          </Typography>
+        )}
         {router.pathname === "/player-profiles" && (
           <Typography sx={{ ml: 2 }} variant="h6" noWrap component="div">
             Player Profiles

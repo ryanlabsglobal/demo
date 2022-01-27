@@ -35,11 +35,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/business-intelligence.js"
     ],
-    "/player-profiles": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/player-profiles.js"
-    ],
     "/player-profiles/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

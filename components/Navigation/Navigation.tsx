@@ -46,6 +46,7 @@ const Navigation: React.FC = (props) => {
           <ListItem onClick={() => router.push("/bet-stream")} button>
             <ListItemText primary="BET STREAM" />
           </ListItem>
+          <Divider />
           <DashboardsDropDown />
           <Divider />
           <ListItem button>
