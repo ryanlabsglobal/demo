@@ -8,6 +8,7 @@ import { Divider } from "@mui/material";
 import Image from "next/image";
 import RaceAlerts from "./RaceAlerts";
 import AddIcon from "@mui/icons-material/Add";
+import UserContext from "../../store/UserContext";
 
 //SVG place holders
 import runner from "../../assets/runnerBets_tabContent.svg";
@@ -32,8 +33,20 @@ const inactive = {
 const AlertModal = () => {
   const [open, setOpen] = React.useState(false);
   const [page, setPage] = React.useState("RACE ALERTS");
+  const [tempAlert, setTempAlerts] = React.useState<any>();
+  const { alerts, setAlerts } = React.useContext(UserContext);
   const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const handleClose = () => {
+    setTempAlerts(alerts);
+    setOpen(false);
+  };
+  const apply = () => {
+    setAlerts(tempAlert);
+    setOpen(false);
+  };
+  React.useEffect(() => {
+    setTempAlerts(alerts);
+  }, []);
   return (
     <React.Fragment>
       <Button
@@ -153,7 +166,14 @@ const AlertModal = () => {
             <Grid item xs={8}>
               <Box>
                 {page === "RACE ALERTS" && (
-                  <RaceAlerts closeHandler={handleClose} />
+                  <RaceAlerts
+                    alerts={tempAlert}
+                    setRaceAlerts={(data: boolean) => {
+                      setTempAlerts({ ...tempAlert, raceAlerts: data });
+                    }}
+                    clearHandler={handleClose}
+                    applyHandler={apply}
+                  />
                 )}
                 {page === "CHANGES IN TRACK CONDITION" && (
                   <Box sx={{ marginTop: "20%" }}>

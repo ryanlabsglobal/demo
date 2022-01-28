@@ -1,6 +1,5 @@
 import React from "react";
 import { Checkbox } from "@mui/material";
-import classes from "./ChangesInTrackCondition.module.css";
 import { Switch } from "@mui/material";
 import { Box } from "@mui/system";
 import InputLabel from "@mui/material/InputLabel";
@@ -25,7 +24,7 @@ const ChangesInTrackCondition: React.FC<ChangesInTrackConditionInterface> = (
           <th>ALERT 2</th>
           <th>ALERT 3</th>
         </tr>
-        <tr className={classes.row}>
+        <tr>
           <td>ENABLE ALERT</td>
           <td style={{ textAlign: "center" }}>
             <Checkbox />

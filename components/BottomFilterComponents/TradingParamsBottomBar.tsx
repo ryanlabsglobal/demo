@@ -53,7 +53,7 @@ const TradingParamsBottomBar = () => {
             width: `calc(100% - 300px)`,
             borderRadius: 2,
             px: 3,
-            minHeight: "570px",
+            minHeight: "600px",
             height: "50vh",
             overflowY: "scroll",
           }}

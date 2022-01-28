@@ -8,15 +8,18 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import TextField from "@mui/material/TextField";
 import InputAdornment from "@mui/material/InputAdornment";
 import SearchIcon from "@mui/icons-material/Search";
-import AlertsModal from "../AlertModalSelection/AlertModal";
+import AlertModal from "../AlertsModalComponents/AlertModal";
 import logo from "../../assets/logo.png";
 import Image from "next/image";
+import NotificationDropDown from "./NotificationDropDown";
+import IconButton from "@mui/material/IconButton";
 
 //The main component for the navbar is Navigation.tsx
 
 const drawerWidth = 260;
 
 const TopBarNav = () => {
+  const [notification, setNotification] = React.useState(false);
   const router = useRouter();
   return (
     <AppBar
@@ -79,8 +82,14 @@ const TopBarNav = () => {
           />
         )}
         <Box sx={{ ml: "auto", mr: 3 }}>
-          <AlertsModal />
-          <NotificationsIcon />
+          <AlertModal />
+          <IconButton
+            onClick={() => setNotification(!notification)}
+            color="primary"
+          >
+            <NotificationsIcon />
+          </IconButton>
+          {notification && <NotificationDropDown />}
         </Box>
       </Toolbar>
     </AppBar>

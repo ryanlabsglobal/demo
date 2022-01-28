@@ -14,7 +14,6 @@ import React from "react";
 
 const PlayerProfile: NextPage = () => {
   const router = useRouter();
-  console.log(router.pathname);
   return (
     <div>
       <Head>
