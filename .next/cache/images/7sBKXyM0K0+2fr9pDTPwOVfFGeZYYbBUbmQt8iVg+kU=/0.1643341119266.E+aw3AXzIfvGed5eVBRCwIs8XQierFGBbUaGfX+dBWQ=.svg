@@ -1,0 +1,606 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1130" height="916" viewBox="0 0 1130 916">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="149.577" height="2" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2369" data-name="Group 2369" transform="translate(-285 -58)">
+    <rect id="Rectangle_63" data-name="Rectangle 63" width="1130" height="862" rx="8" transform="translate(285 76)" fill="#103c55"/>
+    <rect id="Rectangle_64" data-name="Rectangle 64" width="1106" height="40" rx="4" transform="translate(301 124)" fill="#164d6c"/>
+    <g id="Group_288" data-name="Group 288" transform="translate(144.086 -81)">
+      <path id="Path_2233" data-name="Path 2233" d="M320.3,58.051c2.5,0,4.525-4.065,4.525-7.174s-2.026-4.084-4.525-4.084-4.524.975-4.524,4.084S317.8,58.051,320.3,58.051Z" transform="translate(-153.207 118.207)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_2238" data-name="Path 2238" d="M227.149,262.141l-5.094-2.418-1.183,1.308a1.592,1.592,0,0,1-2.291.075l-1.427-1.383-5.682,2.526-1.629,6.774-.245,1.417a1.6,1.6,0,0,0,1.574,1.882h16.8a1.6,1.6,0,0,0,1.573-1.889L229.294,269Z" transform="translate(-52.66 -83.321)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+    <g id="Group_290" data-name="Group 290" transform="translate(725 -3585)">
+      <text id="Client_ID" data-name="Client ID" transform="translate(-416 3733)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">CLIENT ID</tspan></text>
+    </g>
+    <text id="Display_clients:" data-name="Display clients:" transform="translate(1238 103)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato" letter-spacing="0.1em"><tspan x="-78.616" y="0">DISPLAY CLIENTS:</tspan></text>
+    <g id="Input_Slider_Range_Secondary_S" data-name="Input / Slider / Range / Secondary / S" transform="translate(1254 94)">
+      <path id="Track" d="M0,6H149.535" fill="none" stroke="#e200ff" stroke-linecap="round" stroke-width="2" opacity="0.38"/>
+      <g id="Ticks" transform="translate(0 5)" opacity="0.38" clip-path="url(#clip-path)">
+        <circle id="Tick" cx="1" cy="1" r="1"/>
+        <g transform="translate(28)">
+          <circle id="Tick-2" data-name="Tick" cx="1" cy="1" r="1"/>
+        </g>
+        <g transform="translate(56)">
+          <circle id="Tick-3" data-name="Tick" cx="1" cy="1" r="1"/>
+        </g>
+        <g transform="translate(84)">
+          <circle id="Tick-4" data-name="Tick" cx="1" cy="1" r="1"/>
+        </g>
+        <g transform="translate(112)">
+          <circle id="Tick-5" data-name="Tick" cx="1" cy="1" r="1"/>
+        </g>
+        <g transform="translate(140)">
+          <circle id="Tick-6" data-name="Tick" cx="1" cy="1" r="1"/>
+        </g>
+      </g>
+      <path id="Fill" d="M0,6H64" fill="none" stroke="#e200ff" stroke-linecap="round" stroke-width="2"/>
+      <circle id="Tick-7" data-name="Tick" cx="1" cy="1" r="1" transform="translate(71 5)" fill="rgba(255,255,255,0.7)"/>
+      <circle id="Knob" cx="6" cy="6" r="6" transform="translate(58)" fill="#e200ff"/>
+    </g>
+    <g id="Slider_Components_Slider_Label" data-name="Slider / Components / Slider Label" transform="translate(1297 58)" opacity="0.6">
+      <rect id="Rectangle_133" data-name="Rectangle 133" width="41" height="30" rx="4" fill="#e200ff"/>
+      <path id="Polygon_1" data-name="Polygon 1" d="M6,0l6,6H0Z" transform="translate(27 36) rotate(180)" fill="#e200ff"/>
+      <text id="_25" data-name="25" transform="translate(13 21)" fill="#fff" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0em"><tspan x="0" y="0">25</tspan></text>
+    </g>
+    <g id="Group_2175" data-name="Group 2175" transform="translate(608 -2)">
+      <g id="Pagination_Arrows" data-name="Pagination Arrows" transform="translate(719 940)">
+        <g id="navigate_back" data-name="navigate back" transform="translate(12 12)">
+          <rect id="Boundary" width="24" height="24" fill="#164d6c"/>
+          <path id="_Color" data-name=" ↳Color" d="M7.4,1.41,5.992,0,0,6l5.992,6L7.4,10.59,2.826,6Z" transform="translate(8 6)" fill="rgba(255,255,255,0.38)"/>
+        </g>
+        <g id="navigate_next" data-name="navigate next" transform="translate(52 12)">
+          <rect id="Boundary-2" data-name="Boundary" width="24" height="24" fill="#164d6c"/>
+          <path id="_Color-2" data-name=" ↳Color" d="M1.408,0,0,1.41,4.574,6,0,10.59,1.408,12,7.4,6Z" transform="translate(8.6 6)" fill="#fff"/>
+        </g>
+      </g>
+      <text id="Pagination_Totals" data-name="Pagination Totals" transform="translate(690 969)" fill="rgba(255,255,255,0.6)" font-size="12" font-family="Lato-Regular, Lato" letter-spacing="0em"><tspan x="-69.998" y="0">1-25 of 1509</tspan></text>
+    </g>
+    <g id="Group_2323" data-name="Group 2323" transform="translate(93)">
+      <rect id="Rectangle_1129" data-name="Rectangle 1129" width="60" height="32" rx="4" transform="translate(451 128)" fill="#fff" opacity="0.16"/>
+      <g id="Group_2315" data-name="Group 2315">
+        <text id="Bets" transform="translate(471 148)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="-11.77" y="0">BETS</tspan></text>
+        <g id="Group_2303" data-name="Group 2303" transform="translate(-130)">
+          <g id="chevron_drop_down" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+            <rect id="Boundary-3" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-3" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+          <g id="chevron_drop_up" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+            <rect id="Boundary-4" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-4" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2330" data-name="Group 2330" transform="translate(43)">
+      <rect id="Rectangle_1111" data-name="Rectangle 1111" width="110" height="32" rx="4" transform="translate(1086 128)" fill="#fff" opacity="0.16"/>
+      <g id="Group_2305" data-name="Group 2305" transform="translate(-71)">
+        <g id="Group_2304" data-name="Group 2304" transform="translate(626)">
+          <g id="chevron_drop_down-2" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+            <rect id="Boundary-5" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-5" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+          <g id="chevron_drop_up-2" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+            <rect id="Boundary-6" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-6" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+        </g>
+        <text id="Alpha_Profile" data-name="Alpha Profile" transform="translate(1202 148)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="-37.055" y="0">ALPHA PROFILE</tspan></text>
+      </g>
+    </g>
+    <g id="Group_2333" data-name="Group 2333">
+      <text id="_0" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-2" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-3" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-4" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-5" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-6" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-7" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-8" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-9" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-10" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2331" data-name="Group 2331" transform="translate(26)">
+      <rect id="Rectangle_1122" data-name="Rectangle 1122" width="78" height="32" rx="4" transform="translate(1217 128)" fill="#fff" opacity="0.16"/>
+      <g id="Group_2321" data-name="Group 2321">
+        <text id="CSFRATx" transform="translate(1246 148)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="-21.243" y="0">CSFRATX</tspan></text>
+        <g id="Group_2306" data-name="Group 2306" transform="translate(654)">
+          <g id="chevron_drop_down-3" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+            <rect id="Boundary-7" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-7" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+          <g id="chevron_drop_up-3" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+            <rect id="Boundary-8" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-8" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2332" data-name="Group 2332" transform="translate(24)">
+      <rect id="Rectangle_1121" data-name="Rectangle 1121" width="78" height="32" rx="4" transform="translate(1301 128)" fill="#fff" opacity="0.16"/>
+      <g id="Group_2322" data-name="Group 2322" transform="translate(-40)">
+        <text id="CSFRATy" transform="translate(1391 148)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="-42.235" y="0">CSFRATY</tspan></text>
+        <g id="Group_2307" data-name="Group 2307" transform="translate(778)">
+          <g id="chevron_drop_down-4" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+            <rect id="Boundary-9" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-9" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+          <g id="chevron_drop_up-4" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+            <rect id="Boundary-10" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-10" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2329" data-name="Group 2329" transform="translate(38)">
+      <rect id="Rectangle_1123" data-name="Rectangle 1123" width="86" height="32" rx="4" transform="translate(1001 128)" fill="#fff" opacity="0.16"/>
+      <g id="Group_2320" data-name="Group 2320">
+        <text id="BetVar_1" data-name="BetVar+1" transform="translate(1034 148)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="-24.505" y="0">BETVAR+1</tspan></text>
+        <g id="Group_2308" data-name="Group 2308" transform="translate(446)">
+          <g id="chevron_drop_down-5" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+            <rect id="Boundary-11" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-11" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+          <g id="chevron_drop_up-5" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+            <rect id="Boundary-12" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-12" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2328" data-name="Group 2328" transform="translate(55)">
+      <rect id="Rectangle_1124" data-name="Rectangle 1124" width="84" height="32" rx="4" transform="translate(896 128)" fill="#fff" opacity="0.16"/>
+      <g id="Group_2319" data-name="Group 2319">
+        <text id="BetVarSP" transform="translate(928 148)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="-24.42" y="0">BETVARSP</tspan></text>
+        <g id="Group_2309" data-name="Group 2309" transform="translate(339)">
+          <g id="chevron_drop_down-6" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+            <rect id="Boundary-13" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-13" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+          <g id="chevron_drop_up-6" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+            <rect id="Boundary-14" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-14" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2327" data-name="Group 2327" transform="translate(88)">
+      <rect id="Rectangle_1125" data-name="Rectangle 1125" width="53" height="32" rx="4" transform="translate(806 128)" fill="#fff" opacity="0.16"/>
+      <g id="Group_2318" data-name="Group 2318">
+        <text id="ROI" transform="translate(822 148)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="-8.5" y="0">ROI</tspan></text>
+        <g id="Group_2310" data-name="Group 2310" transform="translate(218)">
+          <g id="chevron_drop_down-7" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+            <rect id="Boundary-15" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-15" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+          <g id="chevron_drop_up-7" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+            <rect id="Boundary-16" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-16" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2326" data-name="Group 2326" transform="translate(79)">
+      <rect id="Rectangle_1126" data-name="Rectangle 1126" width="70" height="32" rx="4" transform="translate(741 128)" fill="#fff" opacity="0.16"/>
+      <g id="Group_2317" data-name="Group 2317">
+        <text id="Profit" transform="translate(766 148)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="-17.282" y="0">PROFIT</tspan></text>
+        <g id="Group_2311" data-name="Group 2311" transform="translate(170)">
+          <g id="chevron_drop_down-8" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+            <rect id="Boundary-17" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-17" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+          <g id="chevron_drop_up-8" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+            <rect id="Boundary-18" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-18" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2325" data-name="Group 2325" transform="translate(73)">
+      <rect id="Rectangle_1127" data-name="Rectangle 1127" width="114" height="32" rx="4" transform="translate(629 128)" fill="#fff" opacity="0.16"/>
+      <g id="Group_2316" data-name="Group 2316">
+        <text id="Average_Stake" data-name="Average Stake" transform="translate(676 148)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="-38.533" y="0">AVERAGE STAKE</tspan></text>
+        <g id="Group_2312" data-name="Group 2312" transform="translate(102)">
+          <g id="chevron_drop_down-9" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+            <rect id="Boundary-19" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-19" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+          <g id="chevron_drop_up-9" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+            <rect id="Boundary-20" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-20" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2324" data-name="Group 2324" transform="translate(58)">
+      <rect id="Rectangle_1128" data-name="Rectangle 1128" width="90" height="32" rx="4" transform="translate(550 128)" fill="#fff" opacity="0.16"/>
+      <g id="Group_2314" data-name="Group 2314">
+        <text id="Turnover" transform="translate(585 148)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="-26.887" y="0">TURNOVER</tspan></text>
+        <g id="Group_2313" data-name="Group 2313" transform="translate(-1)">
+          <g id="chevron_drop_down-10" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+            <rect id="Boundary-21" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-21" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+          <g id="chevron_drop_up-10" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+            <rect id="Boundary-22" data-name="Boundary" width="16" height="16" fill="none"/>
+            <path id="_Color-22" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2334" data-name="Group 2334" transform="translate(0 30)">
+      <text id="_0-11" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-12" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-13" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-14" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-15" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-16" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-17" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-18" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-19" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-20" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-2" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-2" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-2" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2335" data-name="Group 2335" transform="translate(0 60)">
+      <text id="_0-21" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-22" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-23" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-24" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-25" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-26" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-27" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-28" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-29" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-30" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-3" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-3" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-3" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2336" data-name="Group 2336" transform="translate(0 90)">
+      <text id="_0-31" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-32" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-33" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-34" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-35" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-36" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-37" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-38" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-39" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-40" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-4" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-4" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-4" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2337" data-name="Group 2337" transform="translate(0 120)">
+      <text id="_0-41" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-42" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-43" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-44" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-45" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-46" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-47" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-48" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-49" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-50" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-5" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-5" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-5" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2338" data-name="Group 2338" transform="translate(0 150)">
+      <text id="_0-51" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-52" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-53" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-54" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-55" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-56" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-57" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-58" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-59" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-60" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-6" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-6" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-6" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2339" data-name="Group 2339" transform="translate(0 180)">
+      <text id="_0-61" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-62" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-63" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-64" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-65" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-66" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-67" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-68" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-69" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-70" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-7" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-7" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-7" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2340" data-name="Group 2340" transform="translate(0 210)">
+      <text id="_0-71" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-72" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-73" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-74" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-75" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-76" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-77" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-78" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-79" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-80" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-8" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-8" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-8" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2341" data-name="Group 2341" transform="translate(0 240)">
+      <text id="_0-81" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-82" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-83" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-84" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-85" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-86" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-87" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-88" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-89" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-90" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-9" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-9" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-9" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2342" data-name="Group 2342" transform="translate(0 270)">
+      <text id="_0-91" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-92" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-93" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-94" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-95" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-96" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-97" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-98" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-99" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-100" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-10" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-10" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-10" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2343" data-name="Group 2343" transform="translate(0 300)">
+      <text id="_0-101" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-102" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-103" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-104" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-105" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-106" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-107" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-108" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-109" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-110" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-11" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-11" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-11" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2344" data-name="Group 2344" transform="translate(0 330)">
+      <text id="_0-111" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-112" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-113" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-114" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-115" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-116" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-117" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-118" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-119" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-120" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-12" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-12" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-12" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2345" data-name="Group 2345" transform="translate(0 360)">
+      <text id="_0-121" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-122" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-123" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-124" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-125" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-126" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-127" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-128" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-129" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-130" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-13" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-13" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-13" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2346" data-name="Group 2346" transform="translate(0 390)">
+      <text id="_0-131" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-132" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-133" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-134" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-135" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-136" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-137" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-138" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-139" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-140" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-14" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-14" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-14" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2347" data-name="Group 2347" transform="translate(0 420)">
+      <text id="_0-141" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-142" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-143" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-144" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-145" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-146" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-147" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-148" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-149" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-150" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-15" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-15" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-15" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2348" data-name="Group 2348" transform="translate(0 450)">
+      <text id="_0-151" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-152" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-153" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-154" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-155" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-156" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-157" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-158" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-159" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-160" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-16" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-16" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-16" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2349" data-name="Group 2349" transform="translate(0 480)">
+      <text id="_0-161" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-162" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-163" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-164" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-165" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-166" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-167" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-168" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-169" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-170" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-17" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-17" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-17" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2350" data-name="Group 2350" transform="translate(0 510)">
+      <text id="_0-171" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-172" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-173" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-174" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-175" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-176" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-177" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-178" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-179" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-180" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-18" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-18" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-18" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2351" data-name="Group 2351" transform="translate(0 540)">
+      <text id="_0-181" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-182" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-183" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-184" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-185" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-186" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-187" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-188" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-189" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-190" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-19" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-19" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-19" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2352" data-name="Group 2352" transform="translate(0 570)">
+      <text id="_0-191" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-192" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-193" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-194" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-195" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-196" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-197" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-198" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-199" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-200" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-20" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-20" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-20" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2353" data-name="Group 2353" transform="translate(0 600)">
+      <text id="_0-201" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-202" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-203" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-204" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-205" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-206" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-207" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-208" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-209" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-210" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-21" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-21" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-21" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2354" data-name="Group 2354" transform="translate(0 630)">
+      <text id="_0-211" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-212" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-213" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-214" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-215" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-216" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-217" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-218" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-219" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-220" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-22" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-22" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-22" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2355" data-name="Group 2355" transform="translate(0 660)">
+      <text id="_0-221" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-222" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-223" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-224" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-225" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-226" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-227" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-228" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-229" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-230" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-23" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-23" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-23" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2356" data-name="Group 2356" transform="translate(0 690)">
+      <text id="_0-231" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-232" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-233" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-234" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-235" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-236" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-237" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-238" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-239" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-240" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-24" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-24" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-24" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2357" data-name="Group 2357" transform="translate(0 720)">
+      <text id="_0-241" data-name="0" transform="translate(993 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-242" data-name="0" transform="translate(1082 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-243" data-name="0" transform="translate(1184 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-244" data-name="0" transform="translate(1282 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-245" data-name="0" transform="translate(1364 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-246" data-name="0" transform="translate(574 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-247" data-name="0" transform="translate(653 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-248" data-name="0" transform="translate(759 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-249" data-name="0" transform="translate(855 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="_0-250" data-name="0" transform="translate(921 190)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.9" y="0">0</tspan></text>
+      <text id="id:_0000000000-25" data-name="id: 0000000000" transform="translate(325 190)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ID: 0000000000</tspan></text>
+      <rect id="Rectangle_898-25" data-name="Rectangle 898" width="1106" height="1" transform="translate(301 201)" fill="#fff" opacity="0.6"/>
+      <path id="exit-to-app-25" data-name="exit-to-app" d="M17.222,3H4.778A1.772,1.772,0,0,0,3,4.778V8.333H4.778V4.778H17.222V17.222H4.778V13.667H3v3.556A1.778,1.778,0,0,0,4.778,19H17.222A1.778,1.778,0,0,0,19,17.222V4.778A1.777,1.777,0,0,0,17.222,3M9.293,14.182l1.262,1.262L15,11,10.556,6.556,9.293,7.809l2.3,2.3H3v1.778h8.6Z" transform="translate(298 177)" fill="#fff"/>
+    </g>
+    <g id="Group_2359" data-name="Group 2359" transform="translate(-257)">
+      <g id="chevron_drop_down-11" data-name="chevron drop down" transform="translate(617 144)" opacity="0.6">
+        <rect id="Boundary-23" data-name="Boundary" width="16" height="16" fill="none"/>
+        <path id="_Color-23" data-name=" ↳Color" d="M10.59,0,6,4.574,1.41,0,0,1.408,6,7.4l6-5.992Z" transform="translate(2 4)" fill="#fff"/>
+      </g>
+      <g id="chevron_drop_up-11" data-name="chevron drop up" transform="translate(617 128)" opacity="0.6">
+        <rect id="Boundary-24" data-name="Boundary" width="16" height="16" fill="none"/>
+        <path id="_Color-24" data-name=" ↳Color" d="M6,0,0,6,1.41,7.41,6,2.83l4.59,4.58L12,6Z" transform="translate(2 4)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

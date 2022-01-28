@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="550" height="126" viewBox="0 0 550 126">
+  <defs>
+    <filter id="Knob" x="26" y="0" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2365" data-name="Group 2365" transform="translate(-2030 -2463)">
+    <rect id="Rectangle_1029" data-name="Rectangle 1029" width="550" height="1" transform="translate(2030 2545)" fill="#fff" opacity="0.6"/>
+    <rect id="Rectangle_1030" data-name="Rectangle 1030" width="550" height="1" transform="translate(2030 2588)" fill="#fff" opacity="0.6"/>
+    <g id="Group_2196" data-name="Group 2196" transform="translate(-3405 -325)">
+      <g id="Group_2192" data-name="Group 2192" transform="translate(-2420 253)">
+        <g id="Input_Checkbox_Element_Checkbox" data-name="Input / Checkbox / Element / Checkbox" transform="translate(8322 2591)">
+          <path id="Checkbox_-_Unchecked" data-name="Checkbox - Unchecked" d="M16,18H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H16a2,2,0,0,1,2,2V16A2,2,0,0,1,16,18ZM2,2V16H16V2Z" fill="#fff"/>
+        </g>
+        <text id="alert" transform="translate(8331 2564)" fill="#fff" font-size="14" font-family="Lato-Regular, Lato"><tspan x="-20.73" y="0">ALERT</tspan></text>
+        <g id="Input_Checkbox_Element_Checkbox-2" data-name="Input / Checkbox / Element / Checkbox" transform="translate(8322 2634)">
+          <path id="Checkbox_-_Unchecked-2" data-name="Checkbox - Unchecked" d="M16,18H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H16a2,2,0,0,1,2,2V16A2,2,0,0,1,16,18ZM2,2V16H16V2Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <text id="Enable_Alert" data-name="Enable Alert" transform="translate(2055 2534)" fill="#fff" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ENABLE ALERT</tspan></text>
+    <text id="play_sound" data-name="play sound" transform="translate(2055 2577)" fill="#fff" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="0">PLAY SOUND</tspan></text>
+    <g id="Input_Switch_Element_Switch" data-name="Input / Switch / Element / Switch" transform="translate(2054 2478)">
+      <path id="Track" d="M7,0H27a7,7,0,0,1,0,14H7A7,7,0,0,1,7,0Z" transform="translate(0 3)" fill="#15b50f" opacity="0.6"/>
+      <g transform="matrix(1, 0, 0, 1, -24, -15)" filter="url(#Knob)">
+        <circle id="Knob-2" data-name="Knob" cx="10" cy="10" r="10" transform="translate(41 15)" fill="#15b50f"/>
+      </g>
+    </g>
+    <text id="Enabled" transform="translate(2107 2492)" fill="#fff" font-size="10" font-family="Lato-Regular, Lato" opacity="0.38"><tspan x="0" y="0">ENABLED</tspan></text>
+  </g>
+</svg>

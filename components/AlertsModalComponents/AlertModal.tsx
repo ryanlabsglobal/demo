@@ -13,12 +13,13 @@ import UserContext from "../../store/UserContext";
 
 //SVG place holders
 import runner from "../../assets/runnerBets_tabContent.svg";
-import trackConditions from "../../assets/trackConditions_tabContent.svg";
-import eventdelay from "../../assets/eventsDelayed_tabContent.svg";
-import marketmover from "../../assets/marketMovement_tabContent.svg";
-import jockeyRunners from "../../assets/jockeysRunners_tabContent.svg";
-import wager from "../../assets/wagerAmount_tabContent.svg";
-import marketcoverage from "../../assets/marketCoverage_tabContent.svg";
+import trackConditions from "../../assets/trackCondition_new.svg";
+import marketmover from "../../assets/marketMovement_new.svg";
+import wager from "../../assets/wagerAmounts_new.svg";
+import marketcoverage from "../../assets/marketCoverage_new.svg";
+import jockeyRunners from "../../assets/jockeyRunners_new.svg";
+import timeSpan from "../../assets/timeSpan_new.svg";
+import alertStandard from "../../assets/alerstStandard.svg";
 
 import ButtonComponent from "./ButtonComponent";
 
@@ -104,28 +105,29 @@ const AlertModal = () => {
                     title="RACE ALERTS"
                   />
                   <ButtonComponent
-                    alert={tempAlert.changesInTrackConditions}
-                    page={page}
-                    setPage={setNewPage}
-                    title="CHANGES IN TRACK CONDITION"
-                  />
-                  <ButtonComponent
                     alert={tempAlert.eventsAreDelayed}
                     page={page}
                     setPage={setNewPage}
                     title="DELAYED EVENTS"
                   />
                   <ButtonComponent
+                    alert={tempAlert.changesInTrackConditions}
+                    page={page}
+                    setPage={setNewPage}
+                    title="TRACK CONDITION"
+                  />
+                  <ButtonComponent
                     alert={tempAlert.runnerBetsWithinTimeSpan}
                     page={page}
                     setPage={setNewPage}
-                    title="RUNNER BETS WITHIN TIME SPAN"
+                    title="BETS WITHIN TIME SPAN"
                   />
+
                   <ButtonComponent
                     alert={tempAlert.changesInMarketMovement}
                     page={page}
                     setPage={setNewPage}
-                    title="CHANGES IN MARKET MOVEMENT"
+                    title="MARKET MOVEMENT"
                   />
                   <ButtonComponent
                     alert={tempAlert.jockeysWithSelectRunners}
@@ -137,13 +139,49 @@ const AlertModal = () => {
                     alert={tempAlert.wagesOverXAmount}
                     page={page}
                     setPage={setNewPage}
-                    title="WAGERS OVER $X AMOUNT"
+                    title="WAGERS AMOUNT"
                   />
                   <ButtonComponent
                     alert={tempAlert.marketCoverageFalls}
                     page={page}
                     setPage={setNewPage}
-                    title="MARKET COVERAGE FALLS"
+                    title="MARKET COVERAGE"
+                  />
+                  <ButtonComponent
+                    alert={tempAlert.marketCoverageFalls}
+                    page={page}
+                    setPage={setNewPage}
+                    title="NEW RELEASES"
+                  />
+                  <ButtonComponent
+                    alert={tempAlert.marketCoverageFalls}
+                    page={page}
+                    setPage={setNewPage}
+                    title="GENERAL MESSAGING"
+                  />
+                  <ButtonComponent
+                    alert={tempAlert.marketCoverageFalls}
+                    page={page}
+                    setPage={setNewPage}
+                    title="CANCELLED EVENTS"
+                  />
+                  <ButtonComponent
+                    alert={tempAlert.marketCoverageFalls}
+                    page={page}
+                    setPage={setNewPage}
+                    title="SYSTEM ISSUES"
+                  />
+                  <ButtonComponent
+                    alert={tempAlert.marketCoverageFalls}
+                    page={page}
+                    setPage={setNewPage}
+                    title="JOCKEY CHANGES"
+                  />
+                  <ButtonComponent
+                    alert={tempAlert.marketCoverageFalls}
+                    page={page}
+                    setPage={setNewPage}
+                    title="SCRATCHINGS"
                   />
                 </Grid>
               </Box>
@@ -160,7 +198,12 @@ const AlertModal = () => {
                     applyHandler={apply}
                   />
                 )}
-                {page === "CHANGES IN TRACK CONDITION" && (
+                {page === "BETS WITHIN TIME SPAN" && (
+                  <Box sx={{ marginY: "10%" }}>
+                    <Image layout="responsive" src={timeSpan} />
+                  </Box>
+                )}
+                {page === "TRACK CONDITION" && (
                   <Box sx={{ marginY: "10%" }}>
                     <Image layout="responsive" src={trackConditions} />
                   </Box>
@@ -180,7 +223,7 @@ const AlertModal = () => {
                     applyHandler={apply}
                   />
                 )}
-                {page === "CHANGES IN MARKET MOVEMENT" && (
+                {page === "MARKET MOVEMENT" && (
                   <Box sx={{ marginY: "10%" }}>
                     <Image layout="responsive" src={marketmover} />
                   </Box>
@@ -190,14 +233,44 @@ const AlertModal = () => {
                     <Image layout="responsive" src={jockeyRunners} />
                   </Box>
                 )}
-                {page === "WAGERS OVER $X AMOUNT" && (
+                {page === "WAGERS AMOUNT" && (
                   <Box sx={{ marginY: "10%" }}>
                     <Image layout="responsive" src={wager} />
                   </Box>
                 )}
-                {page === "MARKET COVERAGE FALLS" && (
+                {page === "MARKET COVERAGE" && (
                   <Box sx={{ marginY: "10%" }}>
                     <Image layout="responsive" src={marketcoverage} />
+                  </Box>
+                )}
+                {page === "NEW RELEASES" && (
+                  <Box sx={{ marginY: "10%" }}>
+                    <Image layout="responsive" src={alertStandard} />
+                  </Box>
+                )}
+                {page === "GENERAL MESSAGING" && (
+                  <Box sx={{ marginY: "10%" }}>
+                    <Image layout="responsive" src={alertStandard} />
+                  </Box>
+                )}
+                {page === "CANCELLED EVENTS" && (
+                  <Box sx={{ marginY: "10%" }}>
+                    <Image layout="responsive" src={alertStandard} />
+                  </Box>
+                )}
+                {page === "SYSTEM ISSUES" && (
+                  <Box sx={{ marginY: "10%" }}>
+                    <Image layout="responsive" src={alertStandard} />
+                  </Box>
+                )}
+                {page === "JOCKEY CHANGES" && (
+                  <Box sx={{ marginY: "10%" }}>
+                    <Image layout="responsive" src={alertStandard} />
+                  </Box>
+                )}
+                {page === "SCRATCHINGS" && (
+                  <Box sx={{ marginY: "10%" }}>
+                    <Image layout="responsive" src={alertStandard} />
                   </Box>
                 )}
               </Box>
