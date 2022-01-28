@@ -285,13 +285,14 @@ const AlertModal = () => {
               ml: "auto",
               marginRight: "30px",
               mt: 2,
-              backgroundColor: "rgba(0, 154, 255, .38)",
+              backgroundColor: "rgba(0, 154, 255, .55)",
               color: "#fff",
+              fontWeight: "bold",
             }}
             severity="error"
             variant="filled"
           >
-            <AlertTitle>How this works</AlertTitle>
+            <AlertTitle sx={{ fontWeight: "bold" }}>How this works</AlertTitle>
             Set alerts to remind you how far out a race is from jump
           </Alert>
         </div>
