@@ -7,7 +7,11 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import Toolbar from "@mui/material/Toolbar";
+
 import { useRouter } from "next/router";
+import ConfirmationNumberOutlinedIcon from "@mui/icons-material/ConfirmationNumberOutlined";
+import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
+import KeyboardArrowRightOutlinedIcon from "@mui/icons-material/KeyboardArrowRightOutlined";
 
 //This is the main component that wraps the pages to provide the navbar around the content
 //Currently this is provided by AuthComppmemt.tsx in the lib folder and will wrap any page that is loged in and wrapped in the higher order component
@@ -44,12 +48,22 @@ const Navigation: React.FC = (props) => {
         <List>
           <ProfileAndTitle />
           <ListItem onClick={() => router.push("/bet-stream")} button>
+            <Box sx={{ mr: "16px" }}>
+              <ConfirmationNumberOutlinedIcon sx={{ color: "#ffffff" }} />
+            </Box>
+            {router.pathname === "/bet-stream" && (
+              <KeyboardArrowRightOutlinedIcon fontSize="small" />
+            )}
             <ListItemText primary="BET STREAM" />
           </ListItem>
           <Divider />
           <DashboardsDropDown />
           <Divider />
           <ListItem button>
+            <Box sx={{ mr: "16px" }}>
+              <SettingsOutlinedIcon sx={{ color: "#ffffff" }} />
+            </Box>
+
             <ListItemText primary="SETTINGS" />
           </ListItem>
         </List>

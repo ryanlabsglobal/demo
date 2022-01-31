@@ -2,7 +2,14 @@ import React from "react";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import UserContext from "../../store/UserContext";
+import Divider from "@mui/material/Divider";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import KeyboardArrowRightOutlinedIcon from "@mui/icons-material/KeyboardArrowRightOutlined";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import CorporateFareOutlinedIcon from "@mui/icons-material/CorporateFareOutlined";
+import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
+import PermIdentityOutlinedIcon from "@mui/icons-material/PermIdentityOutlined";
+import Box from "@mui/system/Box";
 import { useRouter } from "next/router";
 
 //The main component for the navbar is Navigation.tsx
@@ -11,31 +18,43 @@ const DashboardsDropDown = () => {
   const router = useRouter();
   const { dashboards, setDashboards } = React.useContext(UserContext);
   const ShowDashboardHandler = () => setDashboards(!dashboards);
+  //active adds the background color to the REPORTS drop down, latest UI doesn't include this feature but keeping in kjust in case
   let active;
+  let activeDrowdown;
   if (dashboards === true) {
     active = {
       bgcolor: "rgba(0, 0, 0, 0.6)",
       "&:hover": { bgcolor: "rgba(0, 0, 0, 0.55)" },
     };
+    activeDrowdown = {
+      bgcolor: "rgba(0, 0, 0, 0.4)",
+      "&:hover": { bgcolor: "rgba(0, 0, 0, 0.35)" },
+    };
   }
   return (
     <React.Fragment>
-      <ListItem button sx={active} onClick={ShowDashboardHandler}>
-        <ListItemText primary="DASHBOARDS" />
+      <ListItem button onClick={ShowDashboardHandler}>
+        <Box sx={{ mr: "16px" }}>
+          <CorporateFareOutlinedIcon sx={{ color: "#fff" }} />
+        </Box>
+
+        <ListItemText primary="REPORTS" />
       </ListItem>
 
       {dashboards && (
         <React.Fragment>
+          <Divider />
           <ListItem
-            sx={{
-              bgcolor: "rgba(0, 0, 0, 0.4)",
-              "&:hover": { bgcolor: "rgba(0, 0, 0, 0.35)" },
-            }}
+            sx={{ pr: "16px" }}
             button
             onClick={() => router.push("/business-intelligence")}
           >
+            <Box sx={{ mr: "16px" }}>
+              <InsertChartOutlinedIcon sx={{ color: "#fff" }} />
+            </Box>
+
             {router.pathname === "/business-intelligence" && (
-              <ArrowForwardIosIcon fontSize="small" />
+              <KeyboardArrowRightOutlinedIcon fontSize="small" />
             )}
             <ListItemText primary="BUSINESS INTELLIGENCE" />
           </ListItem>
@@ -43,16 +62,13 @@ const DashboardsDropDown = () => {
       )}
       {dashboards && (
         <React.Fragment>
-          <ListItem
-            sx={{
-              bgcolor: "rgba(0, 0, 0, 0.4)",
-              "&:hover": { bgcolor: "rgba(0, 0, 0, 0.35)" },
-            }}
-            button
-            onClick={() => router.push("/player-profiles")}
-          >
+          <Divider />
+          <ListItem button onClick={() => router.push("/player-profiles")}>
+            <Box sx={{ mr: "16px" }}>
+              <PermIdentityOutlinedIcon sx={{ color: "#fff" }} />
+            </Box>
             {router.pathname === "/player-profiles" && (
-              <ArrowForwardIosIcon fontSize="small" />
+              <KeyboardArrowRightOutlinedIcon fontSize="small" />
             )}
             <ListItemText primary="PLAYER PROFILES" />
           </ListItem>

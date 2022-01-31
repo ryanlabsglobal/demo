@@ -285,7 +285,7 @@ const AlertModal = () => {
               ml: "auto",
               marginRight: "30px",
               mt: 2,
-              backgroundColor: "rgba(0, 154, 255, .55)",
+              backgroundColor: "rgba(0, 154, 255, .38)",
               color: "#fff",
               fontWeight: "bold",
             }}
