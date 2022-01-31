@@ -3,9 +3,9 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import UserContext from "../../store/UserContext";
 import Divider from "@mui/material/Divider";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import Typography from "@mui/material/Typography";
 import KeyboardArrowRightOutlinedIcon from "@mui/icons-material/KeyboardArrowRightOutlined";
-import ListItemIcon from "@mui/material/ListItemIcon";
+
 import CorporateFareOutlinedIcon from "@mui/icons-material/CorporateFareOutlined";
 import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
 import PermIdentityOutlinedIcon from "@mui/icons-material/PermIdentityOutlined";
@@ -50,13 +50,18 @@ const DashboardsDropDown = () => {
             onClick={() => router.push("/business-intelligence")}
           >
             <Box sx={{ mr: "16px" }}>
-              <InsertChartOutlinedIcon sx={{ color: "#fff" }} />
+              <InsertChartOutlinedIcon
+                fontSize="small"
+                sx={{ color: "#fff" }}
+              />
             </Box>
 
             {router.pathname === "/business-intelligence" && (
               <KeyboardArrowRightOutlinedIcon fontSize="small" />
             )}
-            <ListItemText primary="BUSINESS INTELLIGENCE" />
+            <Typography sx={{ fontSize: "12px" }}>
+              BUSINESS INTELLIGENCE
+            </Typography>
           </ListItem>
         </React.Fragment>
       )}
@@ -65,12 +70,15 @@ const DashboardsDropDown = () => {
           <Divider />
           <ListItem button onClick={() => router.push("/player-profiles")}>
             <Box sx={{ mr: "16px" }}>
-              <PermIdentityOutlinedIcon sx={{ color: "#fff" }} />
+              <PermIdentityOutlinedIcon
+                fontSize="small"
+                sx={{ color: "#fff" }}
+              />
             </Box>
             {router.pathname === "/player-profiles" && (
               <KeyboardArrowRightOutlinedIcon fontSize="small" />
             )}
-            <ListItemText primary="PLAYER PROFILES" />
+            <Typography sx={{ fontSize: "12px" }}>PLAYER PROFILES</Typography>
           </ListItem>
         </React.Fragment>
       )}
