@@ -6,7 +6,7 @@ import AuthComponent from "../lib/AuthComponent";
 import TradingParamsBottomBar from "../components/BottomFilterComponents/TradingParamsBottomBar";
 import { useRouter } from "next/router";
 
-import tempDash from "../assets/betStream_table.svg";
+import tempDash from "../assets/betStream_table_v3.svg";
 import { Box } from "@mui/system";
 
 const BetStream: NextPage = () => {
