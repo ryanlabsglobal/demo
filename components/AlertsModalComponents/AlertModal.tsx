@@ -66,7 +66,7 @@ const AlertModal = () => {
     <React.Fragment>
       <Button
         variant="contained"
-        sx={{ mr: 3 }}
+        sx={{ mr: 3, width: 105 }}
         endIcon={<AddIcon />}
         onClick={handleOpen}
       >

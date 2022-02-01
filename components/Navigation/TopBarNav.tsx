@@ -87,8 +87,8 @@ const TopBarNav = () => {
           />
         )}
         <Box sx={{ ml: "auto", mr: 3 }}>
-          <Button sx={{ mr: 2 }} variant="contained" color="error">
-            NOTIFICATIONS
+          <Button sx={{ mr: 2, width: 105 }} variant="contained" color="error">
+            <NotificationsIcon /> 25
           </Button>
           <AlertModal />
         </Box>

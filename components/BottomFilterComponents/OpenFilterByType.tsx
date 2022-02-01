@@ -5,6 +5,10 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import Box from "@mui/system/Box";
 import FilterAltOutlinedIcon from "@mui/icons-material/FilterAltOutlined";
 import Checkbox from "@mui/material/Checkbox";
+import Thoroughbred from "../../assets/thoroughbredIcon.svg";
+import Greyhound from "../../assets/greyhoundIcon.svg";
+import Harness from "../../assets/harnessIcon.svg";
+import Image from "next/image";
 const OpenFilterByType = () => {
   return (
     <Box
@@ -23,12 +27,25 @@ const OpenFilterByType = () => {
       </Box>
       <Box>
         <FormGroup sx={{ m: 2 }} row>
-          <FormControlLabel
-            control={<Checkbox defaultChecked />}
-            label="THROUGHBRED"
-          />
-          <FormControlLabel control={<Checkbox />} label="GREYHOUNDS" />
-          <FormControlLabel control={<Checkbox />} label="HARNESS" />
+          <Checkbox defaultChecked />
+          <Typography sx={{ my: "auto", ml: 1 }} variant="body1">
+            ALL
+          </Typography>
+          <Checkbox />
+          <Image src={Thoroughbred} />
+          <Typography sx={{ my: "auto", ml: 1 }} variant="body1">
+            THOROUGHBRED
+          </Typography>
+          <Checkbox />
+          <Image src={Greyhound} />
+          <Typography sx={{ my: "auto", ml: 1 }} variant="body1">
+            GREYHOUNDS
+          </Typography>
+          <Checkbox />
+          <Image src={Harness} />
+          <Typography sx={{ my: "auto", ml: 1 }} variant="body1">
+            HARNESS
+          </Typography>
         </FormGroup>
       </Box>
     </Box>

@@ -5,7 +5,7 @@ import AuthComponent from "../lib/AuthComponent";
 import TradingParamsBottomBar from "../components/BottomFilterComponents/TradingParamsBottomBar";
 import { useRouter } from "next/router";
 
-import tempDash from "../assets/playerProfiles_new.svg";
+import tempDash from "../assets/playerProfiles_table.svg";
 import { Box } from "@mui/system";
 
 const PlayerProfiles: NextPage = () => {
