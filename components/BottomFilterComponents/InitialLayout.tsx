@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/system";
-import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
+import FilterAltOutlinedIcon from "@mui/icons-material/FilterAltOutlined";
 import { Grid, Typography } from "@mui/material";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
@@ -15,7 +15,7 @@ const InitialLayout = () => {
     >
       <Box sx={{ my: "auto" }}>
         <div style={{ display: "flex" }}>
-          <AccountBalanceWalletIcon />
+          <FilterAltOutlinedIcon />
           <Typography sx={{ ml: 2 }} variant="subtitle2">
             FILTER BY
           </Typography>

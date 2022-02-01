@@ -15,6 +15,8 @@ interface ContextInterface {
     marketCoverageFalls: boolean;
   };
   setAlerts?: any;
+  businessIntelTabs?: number;
+  setBusinessIntelTabs?: any;
 }
 
 const UserContext = React.createContext<ContextInterface>({});

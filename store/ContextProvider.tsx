@@ -16,11 +16,16 @@ interface ContextInterface {
     marketCoverageFalls: boolean;
   };
   setAlerts: any;
+  businessIntelTabs: number;
+  setBusinessIntelTabs: any;
 }
 
 export const ContextProvider: React.FC = (props) => {
+  //This will be used to store auth details, not currently in use
   const [auth, setAuth] = React.useState<boolean>(true);
+  //The open and closed state of the Dashboards tab (now called the reports tab) in the side bar, names need to be changed
   const [dashboards, setDashboards] = React.useState<boolean>(false);
+  const [businessIntelTabs, setBusinessIntelTabs] = React.useState<number>(0);
   const [alerts, setAlerts] = React.useState({
     raceAlerts: false,
     changesInTrackConditions: false,
@@ -37,6 +42,8 @@ export const ContextProvider: React.FC = (props) => {
     setDashboards,
     alerts,
     setAlerts,
+    businessIntelTabs,
+    setBusinessIntelTabs,
   };
   return (
     <UserContext.Provider value={ContextProviderValue}>

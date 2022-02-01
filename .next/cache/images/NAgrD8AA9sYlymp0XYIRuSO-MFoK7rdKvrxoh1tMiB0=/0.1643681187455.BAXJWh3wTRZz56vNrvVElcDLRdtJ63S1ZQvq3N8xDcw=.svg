@@ -1,0 +1,749 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1130" height="320" viewBox="0 0 1130 320">
+  <defs>
+    <filter id="Rectangle_927" x="572" y="264" width="116" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928" x="572" y="269" width="74" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-2" x="572" y="250.5" width="131" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-2" x="503" y="256.5" width="96" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-color="#b50f0f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_942" x="109" y="233" width="31" height="56" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0f73b5"/>
+      <stop offset="1" stop-color="#0f73b5" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Rectangle_927-3" x="572" y="225" width="109" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-3" x="572" y="230" width="105" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-7"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-4" x="572" y="211" width="140" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-8"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-4" x="572" y="216" width="57" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-9"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-5" x="572" y="185" width="136" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-10"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-5" x="572" y="190" width="73" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-11"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-6" x="572" y="171" width="55" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-12"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-6" x="572" y="176" width="44" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-13"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-7" x="572" y="133" width="154" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-14"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-7" x="572" y="138" width="96" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-15"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-8" x="572" y="120" width="132" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-16"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-8" x="572" y="125" width="96" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-17"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-9" x="572" y="107" width="96" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-18"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-9" x="572" y="112" width="74" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-19"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-10" x="572" y="94" width="168" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-20"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-20"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-10" x="572" y="99" width="126" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-21"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-21"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-11" x="572" y="80" width="136" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-22"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-22"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-11" x="572" y="85" width="65" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-23"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-23"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-12" x="572" y="41" width="169" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-24"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-24"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-12" x="572" y="46" width="163" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-25"/>
+      <feFlood flood-color="#15b50f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-25"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-13" x="572" y="237.5" width="86" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-26"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-26"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-13" x="549" y="243.5" width="50" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-27"/>
+      <feFlood flood-color="#b50f0f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-27"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-14" x="572" y="197.5" width="114" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-28"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-28"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-14" x="536" y="203.5" width="63" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-29"/>
+      <feFlood flood-color="#b50f0f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-29"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-15" x="572" y="158.5" width="100" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-30"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-30"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-15" x="521" y="164.5" width="78" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-31"/>
+      <feFlood flood-color="#b50f0f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-31"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-16" x="572" y="145.5" width="127" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-32"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-32"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-16" x="486" y="151.5" width="113" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-33"/>
+      <feFlood flood-color="#b50f0f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-33"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-17" x="572" y="66.5" width="80" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-34"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-34"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-17" x="560" y="72.5" width="39" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-35"/>
+      <feFlood flood-color="#b50f0f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-35"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_927-18" x="572" y="53.5" width="107" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-36"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-36"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_928-18" x="516" y="59.5" width="83" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-37"/>
+      <feFlood flood-color="#b50f0f" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-37"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle" x="638.649" y="138" width="157.351" height="76" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-38"/>
+      <feFlood flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur-38"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_942-2" x="194" y="29" width="31" height="56" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-39"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-39"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_942-3" x="137" y="63" width="31" height="56" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-40"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-40"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_942-4" x="172" y="97" width="31" height="56" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-41"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-41"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_942-5" x="314" y="131" width="31" height="56" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-42"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-42"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_942-6" x="132" y="165" width="31" height="56" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-43"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-43"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_942-7" x="165" y="199" width="31" height="56" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-44"/>
+      <feFlood flood-color="#0f73b5" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-44"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2444" data-name="Group 2444" transform="translate(-284 -578)">
+    <rect id="Rectangle_879" data-name="Rectangle 879" width="366" height="320" rx="8" transform="translate(666 578)" fill="#103c55"/>
+    <g id="Group_2027" data-name="Group 2027" transform="translate(682 586)">
+      <text id="Subtitle_1" data-name="Subtitle 1" transform="translate(24 13)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">ODDS RANGE ($)</tspan></text>
+      <path id="map-marker-distance" d="M5.6,6.888A1.288,1.288,0,1,1,6.888,5.6h0A1.288,1.288,0,0,1,5.6,6.888M5.6,2A3.585,3.585,0,0,0,2,5.6c0,2.7,3.6,6.688,3.6,6.688S9.2,8.3,9.2,5.6A3.585,3.585,0,0,0,5.6,2m8.8,4.888A1.288,1.288,0,1,1,15.688,5.6,1.288,1.288,0,0,1,14.4,6.888M14.4,2a3.585,3.585,0,0,0-3.6,3.6c0,2.7,3.6,6.688,3.6,6.688S18,8.3,18,5.6A3.585,3.585,0,0,0,14.4,2m0,11.2a2.388,2.388,0,0,0-2.256,1.6H7.856A2.4,2.4,0,1,0,6.4,17.863,2.441,2.441,0,0,0,7.856,16.4h4.3a2.4,2.4,0,0,0,4.528-1.6,2.419,2.419,0,0,0-2.28-1.6h0m0,3.6a1.2,1.2,0,1,1,1.2-1.2A1.2,1.2,0,0,1,14.4,16.8Z" transform="translate(-2 -2)" fill="#fff"/>
+    </g>
+    <text id="_-_8M" data-name="-$8M" transform="translate(724 881)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.4"><tspan x="0" y="0">-$8M</tspan></text>
+    <text id="_-_6M" data-name="-$6M" transform="translate(760 881)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">-$6M</tspan></text>
+    <text id="_-_4M" data-name="-$4M" transform="translate(796 881)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.8"><tspan x="0" y="0">-$4M</tspan></text>
+    <text id="_-_2M" data-name="-$2M" transform="translate(831 881)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">-$2M</tspan></text>
+    <text id="_0" data-name="$0" transform="translate(867 881)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">$0</tspan></text>
+    <text id="_2M" data-name="$2M" transform="translate(897 881)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.8"><tspan x="0" y="0">$2M</tspan></text>
+    <text id="_6M" data-name="$6M" transform="translate(968 881)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$6M</tspan></text>
+    <text id="_8M" data-name="$8M" transform="translate(1016 881)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.4"><tspan x="-12.63" y="0">$8M</tspan></text>
+    <text id="graph_calcs_off_turnover" data-name="graph calcs off turnover" transform="translate(1016 600)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="-116.644" y="0">GRAPH CALCS OFF TURNOVER</tspan></text>
+    <g id="Group_2029" data-name="Group 2029" transform="translate(909 857) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -279, 625)" filter="url(#Rectangle_927)">
+        <rect id="Rectangle_927-19" data-name="Rectangle 927" width="4" height="86" rx="2" transform="translate(673 279) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -279, 625)" filter="url(#Rectangle_928)">
+        <rect id="Rectangle_928-19" data-name="Rectangle 928" width="4" height="44" rx="2" transform="translate(631 284) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2030" data-name="Group 2030" transform="translate(893.795 843.5) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -265.5, 609.79)" filter="url(#Rectangle_927-2)">
+        <rect id="Rectangle_927-20" data-name="Rectangle 927" width="4" height="101" rx="2" transform="translate(688 265.5) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -265.5, 609.79)" filter="url(#Rectangle_928-2)">
+        <rect id="Rectangle_928-20" data-name="Rectangle 928" width="4" height="66" rx="2" transform="translate(584 271.5) rotate(90)" fill="#b50f0f"/>
+      </g>
+    </g>
+    <text id="_4M" data-name="$4M" transform="translate(932 881)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$4M</tspan></text>
+    <rect id="Rectangle_880" data-name="Rectangle 880" width="366" height="320" rx="8" transform="translate(284 578)" fill="#103c55"/>
+    <g id="Group_2036" data-name="Group 2036" transform="translate(9 158)">
+      <text id="Subtitle_1-2" data-name="Subtitle 1" transform="translate(315 441)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">DAY OF WEEK</tspan></text>
+      <path id="calendar-blank-multiple" d="M15.545,12.636V6.091H5.364v6.545H15.545m0-10.182A1.459,1.459,0,0,1,17,3.909v8.727a1.459,1.459,0,0,1-1.455,1.455H5.364a1.454,1.454,0,0,1-1.455-1.455V3.909A1.459,1.459,0,0,1,5.364,2.455h.727V1H7.545V2.455h5.818V1h1.455V2.455h.727M2.455,15.545H12.636V17H2.455A1.454,1.454,0,0,1,1,15.545V6.818H2.455Z" transform="translate(290 427)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_929" data-name="Rectangle 929" width="1" height="267" transform="translate(634 865) rotate(90)" fill="#fff" opacity="0.38"/>
+    <text id="graph_calcs_off_Bets" data-name="graph calcs off Bets" transform="translate(634 600)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="-92.308" y="0">GRAPH CALCS OFF BETS</tspan></text>
+    <text id="_0-2" data-name="$0" transform="translate(367 876)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$0</tspan></text>
+    <text id="_2_234_098_26_978" data-name="$2,234,098
+$26,978" transform="translate(502 633)" fill="#15b50f" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">$2,234,098</tspan><tspan x="0" y="12">$26,978</tspan></text>
+    <text id="_800_078_102_507" data-name="$800,078
+$102,507" transform="translate(445 667)" fill="#15b50f" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">$800,078</tspan><tspan x="0" y="12">$102,507</tspan></text>
+    <text id="_1_565_627_98_065" data-name="$1,565,627
+$98,065" transform="translate(480 701)" fill="#15b50f" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">$1,565,627</tspan><tspan x="0" y="12">$98,065</tspan></text>
+    <text id="_1_189_007_197_887" data-name="$1,189,007
+$197,887" transform="translate(440 769)" fill="#15b50f" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">$1,189,007</tspan><tspan x="0" y="12">$197,887</tspan></text>
+    <text id="_1_758_876_50_097" data-name="$1,758,876
+$50,097" transform="translate(473 803)" fill="#15b50f" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">$1,758,876</tspan><tspan x="0" y="12">$50,097</tspan></text>
+    <text id="_654_076_38_607" data-name="$654,076
+$38,607" transform="translate(417 837)" fill="#15b50f" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">$654,076</tspan><tspan x="0" y="12">$38,607</tspan></text>
+    <text id="sunday" transform="translate(300 630)" fill="#fff" font-size="8" font-family="Lato-Medium, Lato" font-weight="500" opacity="0.6"><tspan x="0" y="0">SUNDAY</tspan></text>
+    <text id="_0.012_" data-name="0.012%" transform="translate(300 646)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em" opacity="0.6"><tspan x="0" y="0">0.012%</tspan></text>
+    <g id="Group_2119" data-name="Group 2119" transform="translate(1343 274) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, 304, 1059)" filter="url(#Rectangle_942)">
+        <rect id="Rectangle_942-8" data-name="Rectangle 942" width="26" height="1" transform="translate(125 248) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <rect id="Rectangle_945" data-name="Rectangle 945" width="26" height="41" transform="translate(552 935)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_2071" data-name="Group 2071" transform="translate(784)">
+      <rect id="Rectangle_881" data-name="Rectangle 881" width="366" height="320" rx="8" transform="translate(264 578)" fill="#103c55"/>
+      <g id="Group_2045" data-name="Group 2045" transform="translate(-11 158)">
+        <text id="Subtitle_1-3" data-name="Subtitle 1" transform="translate(323 441)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">KEY CUSTOMERS</tspan></text>
+        <path id="account-key-outline" d="M5.8,10A2.913,2.913,0,0,0,3,8a3,3,0,0,0,0,6,2.913,2.913,0,0,0,2.8-2H7v2H9V12h2V10H5.8M3,12a.945.945,0,0,1-1-1,.945.945,0,0,1,1-1,.945.945,0,0,1,1,1,.945.945,0,0,1-1,1M16,4a4,4,0,1,0,4,4,4.012,4.012,0,0,0-4-4m0,6.1A2.051,2.051,0,0,1,13.9,8a2.1,2.1,0,0,1,4.2,0A2.051,2.051,0,0,1,16,10.1M16,13c-2.7,0-8,1.3-8,4v3H24V17c0-2.7-5.3-4-8-4m6.1,5.1H9.9V17c0-.6,3.1-2.1,6.1-2.1s6.1,1.5,6.1,2.1Z" transform="translate(291 424)" fill="#fff"/>
+      </g>
+      <g id="Group_2049" data-name="Group 2049" transform="translate(97 9)">
+        <path id="_Color" data-name=" ↳Color" d="M7.4,1.41,5.992,0,0,6l5.992,6L7.4,10.59,2.826,6Z" transform="translate(494.217 869)" fill="rgba(255,255,255,0.38)"/>
+        <path id="_Color-2" data-name=" ↳Color" d="M1.408,0,0,1.41,4.574,6,0,10.59,1.408,12,7.4,6Z" transform="translate(509.617 869)" fill="#fff"/>
+        <text id="Pagination_Totals" data-name="Pagination Totals" transform="translate(441 878)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato" letter-spacing="0em"><tspan x="0" y="0">1-10 of 15</tspan></text>
+      </g>
+      <g id="Group_76" data-name="Group 76" transform="translate(-516 477)">
+        <text id="Bets" transform="translate(945 159)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-9.522" y="0">BETS</tspan></text>
+        <text id="Turnover" transform="translate(984 159)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-21.812" y="0">TURNOVER</tspan></text>
+        <text id="_Turn." data-name="% Turn." transform="translate(1034 159)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-16.102" y="0">% TURN.</tspan></text>
+        <text id="Profit" transform="translate(1076 159)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-14.09" y="0">PROFIT</tspan></text>
+        <text id="ROI" transform="translate(1115 159)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-6.95" y="0">ROI</tspan></text>
+      </g>
+      <text id="Cust._Id" data-name="Cust. Id" transform="translate(280 636)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">CUST. ID</tspan></text>
+      <g id="Group_1969" data-name="Group 1969" transform="translate(-393 328)" opacity="0.6">
+        <text id="vip_1" data-name="vip 1" transform="translate(673 336)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 1</tspan></text>
+        <text id="_0-3" data-name="0" transform="translate(822 336)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-4" data-name="0" transform="translate(861 336)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-5" data-name="0" transform="translate(911 336)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-6" data-name="0" transform="translate(953 336)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-7" data-name="0" transform="translate(992 336)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <g id="Group_1970" data-name="Group 1970" transform="translate(-393 331)" opacity="0.6">
+        <text id="vip_2" data-name="vip 2" transform="translate(673 352)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 2</tspan></text>
+        <text id="_0-8" data-name="0" transform="translate(822 352)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-9" data-name="0" transform="translate(861 352)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-10" data-name="0" transform="translate(911 352)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-11" data-name="0" transform="translate(953 352)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-12" data-name="0" transform="translate(992 352)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <g id="Group_1971" data-name="Group 1971" transform="translate(-393 334)" opacity="0.6">
+        <text id="vip_3" data-name="vip 3" transform="translate(673 368)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 3</tspan></text>
+        <text id="_0-13" data-name="0" transform="translate(822 368)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-14" data-name="0" transform="translate(861 368)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-15" data-name="0" transform="translate(911 368)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-16" data-name="0" transform="translate(953 368)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-17" data-name="0" transform="translate(992 368)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <g id="Group_1972" data-name="Group 1972" transform="translate(-393 337)" opacity="0.6">
+        <text id="vip_4" data-name="vip 4" transform="translate(673 384)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 4</tspan></text>
+        <text id="_0-18" data-name="0" transform="translate(822 384)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-19" data-name="0" transform="translate(861 384)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-20" data-name="0" transform="translate(911 384)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-21" data-name="0" transform="translate(953 384)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-22" data-name="0" transform="translate(992 384)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <g id="Group_1973" data-name="Group 1973" transform="translate(-393 340)" opacity="0.6">
+        <text id="vip_5" data-name="vip 5" transform="translate(673 400)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 5</tspan></text>
+        <text id="_0-23" data-name="0" transform="translate(822 400)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-24" data-name="0" transform="translate(861 400)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-25" data-name="0" transform="translate(911 400)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-26" data-name="0" transform="translate(953 400)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-27" data-name="0" transform="translate(992 400)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <g id="Group_1974" data-name="Group 1974" transform="translate(-393 343)" opacity="0.6">
+        <text id="vip_6" data-name="vip 6" transform="translate(673 416)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 6</tspan></text>
+        <text id="_0-28" data-name="0" transform="translate(822 416)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-29" data-name="0" transform="translate(861 416)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-30" data-name="0" transform="translate(911 416)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-31" data-name="0" transform="translate(953 416)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-32" data-name="0" transform="translate(992 416)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <g id="Group_1975" data-name="Group 1975" transform="translate(-393 346)" opacity="0.6">
+        <text id="vip_7" data-name="vip 7" transform="translate(673 432)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 7</tspan></text>
+        <text id="_0-33" data-name="0" transform="translate(822 432)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-34" data-name="0" transform="translate(861 432)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-35" data-name="0" transform="translate(911 432)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-36" data-name="0" transform="translate(953 432)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-37" data-name="0" transform="translate(992 432)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <g id="Group_1976" data-name="Group 1976" transform="translate(-393 349)" opacity="0.6">
+        <text id="vip_8" data-name="vip 8" transform="translate(673 448)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 8</tspan></text>
+        <text id="_0-38" data-name="0" transform="translate(822 448)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-39" data-name="0" transform="translate(861 448)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-40" data-name="0" transform="translate(911 448)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-41" data-name="0" transform="translate(953 448)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-42" data-name="0" transform="translate(992 448)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <g id="Group_1977" data-name="Group 1977" transform="translate(-393 352)" opacity="0.6">
+        <text id="vip_9" data-name="vip 9" transform="translate(673 464)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 9</tspan></text>
+        <text id="_0-43" data-name="0" transform="translate(822 464)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-44" data-name="0" transform="translate(861 464)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-45" data-name="0" transform="translate(911 464)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-46" data-name="0" transform="translate(953 464)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-47" data-name="0" transform="translate(992 464)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <g id="Group_1978" data-name="Group 1978" transform="translate(-393 355)" opacity="0.6">
+        <text id="vip_10" data-name="vip 10" transform="translate(673 480)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 10</tspan></text>
+        <text id="_0-48" data-name="0" transform="translate(822 480)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-49" data-name="0" transform="translate(861 480)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-50" data-name="0" transform="translate(911 480)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-51" data-name="0" transform="translate(953 480)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-52" data-name="0" transform="translate(992 480)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <rect id="Rectangle_897" data-name="Rectangle 897" width="334" height="1" transform="translate(280 646)" fill="#fff"/>
+      <rect id="Rectangle_898" data-name="Rectangle 898" width="334" height="1" transform="translate(280 670)" fill="#fff" opacity="0.6"/>
+      <rect id="Rectangle_899" data-name="Rectangle 899" width="334" height="1" transform="translate(280 689)" fill="#fff" opacity="0.6"/>
+      <rect id="Rectangle_900" data-name="Rectangle 900" width="334" height="1" transform="translate(280 708)" fill="#fff" opacity="0.6"/>
+      <rect id="Rectangle_901" data-name="Rectangle 901" width="334" height="1" transform="translate(280 727)" fill="#fff" opacity="0.6"/>
+      <rect id="Rectangle_902" data-name="Rectangle 902" width="334" height="1" transform="translate(280 746)" fill="#fff" opacity="0.6"/>
+      <rect id="Rectangle_903" data-name="Rectangle 903" width="334" height="1" transform="translate(280 765)" fill="#fff" opacity="0.6"/>
+      <rect id="Rectangle_904" data-name="Rectangle 904" width="334" height="1" transform="translate(280 784)" fill="#fff" opacity="0.6"/>
+      <rect id="Rectangle_905" data-name="Rectangle 905" width="334" height="1" transform="translate(280 803)" fill="#fff" opacity="0.6"/>
+      <rect id="Rectangle_906" data-name="Rectangle 906" width="334" height="1" transform="translate(280 822)" fill="#fff" opacity="0.6"/>
+      <rect id="Rectangle_907" data-name="Rectangle 907" width="334" height="1" transform="translate(280 841)" fill="#fff" opacity="0.6"/>
+      <g id="Group_2050" data-name="Group 2050" transform="translate(-393 374)" opacity="0.6">
+        <text id="vip_11" data-name="vip 11" transform="translate(673 480)" fill="#fff" font-size="8" font-family="Lato-Regular, Lato"><tspan x="0" y="0">VIP 11</tspan></text>
+        <text id="_0-53" data-name="0" transform="translate(822 480)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-54" data-name="0" transform="translate(861 480)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-55" data-name="0" transform="translate(911 480)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-56" data-name="0" transform="translate(953 480)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+        <text id="_0-57" data-name="0" transform="translate(992 480)" fill="#fff" font-size="8" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-2.32" y="0">0</tspan></text>
+      </g>
+      <rect id="Rectangle_951" data-name="Rectangle 951" width="334" height="1" transform="translate(280 860)" fill="#fff" opacity="0.6"/>
+      <g id="search" transform="translate(466 592)">
+        <rect id="Boundary" width="24" height="24" fill="none"/>
+      </g>
+      <g id="Group_2051" data-name="Group 2051" transform="translate(140 4)">
+        <rect id="background" width="20" height="20" rx="4" transform="translate(454 582)" fill="rgba(255,255,255,0.15)"/>
+        <path id="_Color-3" data-name=" ↳Color" d="M10.978,12h0L7.547,8.576V8.035l-.185-.192a4.466,4.466,0,1,1,.481-.481l.192.185h.542L12,10.978,10.978,12ZM4.46,1.372A3.088,3.088,0,1,0,7.547,4.46,3.091,3.091,0,0,0,4.46,1.372Z" transform="translate(458 586)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="_1.00_-_1.33" data-name="1.00 - 1.33" transform="translate(682 798)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-2" data-name="1.00 - 1.33" transform="translate(682 785)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-3" data-name="1.00 - 1.33" transform="translate(682 772)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-4" data-name="1.00 - 1.33" transform="translate(682 759)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-5" data-name="1.00 - 1.33" transform="translate(682 733)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-6" data-name="1.00 - 1.33" transform="translate(682 707)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <rect id="Rectangle_972" data-name="Rectangle 972" width="292" height="1" transform="translate(724 651)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_973" data-name="Rectangle 973" width="292" height="1" transform="translate(724 730)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_974" data-name="Rectangle 974" width="292" height="1" transform="translate(724 704)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_975" data-name="Rectangle 975" width="292" height="1" transform="translate(724 691)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_976" data-name="Rectangle 976" width="292" height="1" transform="translate(724 677)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_977" data-name="Rectangle 977" width="292" height="1" transform="translate(724 664)" fill="#fff" opacity="0.38"/>
+    <text id="_1.00_-_1.33-7" data-name="1.00 - 1.33" transform="translate(682 864)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <rect id="Rectangle_978" data-name="Rectangle 978" width="292" height="1" transform="translate(724 743)" fill="#fff" opacity="0.38"/>
+    <text id="_1.00_-_1.33-8" data-name="1.00 - 1.33" transform="translate(682 720)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-9" data-name="1.00 - 1.33" transform="translate(682 746)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <rect id="Rectangle_979" data-name="Rectangle 979" width="292" height="1" transform="translate(724 638)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_981" data-name="Rectangle 981" width="292" height="1" transform="translate(724 782)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_982" data-name="Rectangle 982" width="292" height="1" transform="translate(724 848)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_983" data-name="Rectangle 983" width="292" height="1" transform="translate(724 835)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_984" data-name="Rectangle 984" width="292" height="1" transform="translate(724 822)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_985" data-name="Rectangle 985" width="292" height="1" transform="translate(724 808)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_986" data-name="Rectangle 986" width="292" height="1" transform="translate(724 795)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_987" data-name="Rectangle 987" width="292" height="1" transform="translate(724 861)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_988" data-name="Rectangle 988" width="292" height="1" transform="translate(724 769)" fill="#fff" opacity="0.38"/>
+    <rect id="Rectangle_989" data-name="Rectangle 989" width="292" height="1" transform="translate(724 756)" fill="#fff" opacity="0.38"/>
+    <text id="_1.00_-_1.33-10" data-name="1.00 - 1.33" transform="translate(682 851)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-11" data-name="1.00 - 1.33" transform="translate(682 838)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-12" data-name="1.00 - 1.33" transform="translate(682 825)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <rect id="Rectangle_990" data-name="Rectangle 990" width="292" height="1" transform="translate(724 717)" fill="#fff" opacity="0.38"/>
+    <text id="_1.00_-_1.33-13" data-name="1.00 - 1.33" transform="translate(682 811)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-14" data-name="1.00 - 1.33" transform="translate(682 694)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-15" data-name="1.00 - 1.33" transform="translate(682 680)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-16" data-name="1.00 - 1.33" transform="translate(682 667)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_1.00_-_1.33-17" data-name="1.00 - 1.33" transform="translate(682 654)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">1.00 - 1.33</tspan></text>
+    <text id="_80.00_-_1000" data-name="80.00 - 1000" transform="translate(682 641)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">80.00 - 1000</tspan></text>
+    <g id="Group_2095" data-name="Group 2095" transform="translate(909 818) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -240, 625)" filter="url(#Rectangle_927-3)">
+        <rect id="Rectangle_927-21" data-name="Rectangle 927" width="4" height="79" rx="2" transform="translate(666 240) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -240, 625)" filter="url(#Rectangle_928-3)">
+        <rect id="Rectangle_928-21" data-name="Rectangle 928" width="4" height="75" rx="2" transform="translate(662 245) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2096" data-name="Group 2096" transform="translate(909 804) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -226, 625)" filter="url(#Rectangle_927-4)">
+        <rect id="Rectangle_927-22" data-name="Rectangle 927" width="4" height="110" rx="2" transform="translate(697 226) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -226, 625)" filter="url(#Rectangle_928-4)">
+        <rect id="Rectangle_928-22" data-name="Rectangle 928" width="4" height="27" rx="2" transform="translate(614 231) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2097" data-name="Group 2097" transform="translate(909 778) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -200, 625)" filter="url(#Rectangle_927-5)">
+        <rect id="Rectangle_927-23" data-name="Rectangle 927" width="4" height="106" rx="2" transform="translate(693 200) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -200, 625)" filter="url(#Rectangle_928-5)">
+        <rect id="Rectangle_928-23" data-name="Rectangle 928" width="4" height="43" rx="2" transform="translate(630 205) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2098" data-name="Group 2098" transform="translate(909 764) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -186, 625)" filter="url(#Rectangle_927-6)">
+        <rect id="Rectangle_927-24" data-name="Rectangle 927" width="4" height="25" rx="2" transform="translate(612 186) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -186, 625)" filter="url(#Rectangle_928-6)">
+        <rect id="Rectangle_928-24" data-name="Rectangle 928" width="4" height="14" rx="2" transform="translate(601 191) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2099" data-name="Group 2099" transform="translate(909 726) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -148, 625)" filter="url(#Rectangle_927-7)">
+        <rect id="Rectangle_927-25" data-name="Rectangle 927" width="4" height="124" rx="2" transform="translate(711 148) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -148, 625)" filter="url(#Rectangle_928-7)">
+        <rect id="Rectangle_928-25" data-name="Rectangle 928" width="4" height="66" rx="2" transform="translate(653 153) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2100" data-name="Group 2100" transform="translate(909 713) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -135, 625)" filter="url(#Rectangle_927-8)">
+        <rect id="Rectangle_927-26" data-name="Rectangle 927" width="4" height="102" rx="2" transform="translate(689 135) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -135, 625)" filter="url(#Rectangle_928-8)">
+        <rect id="Rectangle_928-26" data-name="Rectangle 928" width="4" height="66" rx="2" transform="translate(653 140) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2101" data-name="Group 2101" transform="translate(909 700) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -122, 625)" filter="url(#Rectangle_927-9)">
+        <rect id="Rectangle_927-27" data-name="Rectangle 927" width="4" height="66" rx="2" transform="translate(653 122) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -122, 625)" filter="url(#Rectangle_928-9)">
+        <rect id="Rectangle_928-27" data-name="Rectangle 928" width="4" height="44" rx="2" transform="translate(631 127) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2102" data-name="Group 2102" transform="translate(909 687) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -109, 625)" filter="url(#Rectangle_927-10)">
+        <rect id="Rectangle_927-28" data-name="Rectangle 927" width="4" height="138" rx="2" transform="translate(725 109) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -109, 625)" filter="url(#Rectangle_928-10)">
+        <rect id="Rectangle_928-28" data-name="Rectangle 928" width="4" height="96" rx="2" transform="translate(683 114) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2103" data-name="Group 2103" transform="translate(909 673) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -95, 625)" filter="url(#Rectangle_927-11)">
+        <rect id="Rectangle_927-29" data-name="Rectangle 927" width="4" height="106" rx="2" transform="translate(693 95) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -95, 625)" filter="url(#Rectangle_928-11)">
+        <rect id="Rectangle_928-29" data-name="Rectangle 928" width="4" height="35" rx="2" transform="translate(622 100) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2104" data-name="Group 2104" transform="translate(909 634) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -56, 625)" filter="url(#Rectangle_927-12)">
+        <rect id="Rectangle_927-30" data-name="Rectangle 927" width="4" height="139" rx="2" transform="translate(726 56) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -56, 625)" filter="url(#Rectangle_928-12)">
+        <rect id="Rectangle_928-30" data-name="Rectangle 928" width="4" height="133" rx="2" transform="translate(720 61) rotate(90)" fill="#15b50f"/>
+      </g>
+    </g>
+    <g id="Group_2105" data-name="Group 2105" transform="translate(893.795 830.5) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -252.5, 609.79)" filter="url(#Rectangle_927-13)">
+        <rect id="Rectangle_927-31" data-name="Rectangle 927" width="4" height="56" rx="2" transform="translate(643 252.5) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -252.5, 609.79)" filter="url(#Rectangle_928-13)">
+        <rect id="Rectangle_928-31" data-name="Rectangle 928" width="4" height="20" rx="2" transform="translate(584 258.5) rotate(90)" fill="#b50f0f"/>
+      </g>
+    </g>
+    <g id="Group_2106" data-name="Group 2106" transform="translate(893.795 790.5) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -212.5, 609.79)" filter="url(#Rectangle_927-14)">
+        <rect id="Rectangle_927-32" data-name="Rectangle 927" width="4" height="84" rx="2" transform="translate(671 212.5) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -212.5, 609.79)" filter="url(#Rectangle_928-14)">
+        <rect id="Rectangle_928-32" data-name="Rectangle 928" width="4" height="33" rx="2" transform="translate(584 218.5) rotate(90)" fill="#b50f0f"/>
+      </g>
+    </g>
+    <g id="Group_2107" data-name="Group 2107" transform="translate(893.795 751.5) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -173.5, 609.79)" filter="url(#Rectangle_927-15)">
+        <rect id="Rectangle_927-33" data-name="Rectangle 927" width="4" height="70" rx="2" transform="translate(657 173.5) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -173.5, 609.79)" filter="url(#Rectangle_928-15)">
+        <rect id="Rectangle_928-33" data-name="Rectangle 928" width="4" height="48" rx="2" transform="translate(584 179.5) rotate(90)" fill="#b50f0f"/>
+      </g>
+    </g>
+    <g id="Group_2108" data-name="Group 2108" transform="translate(893.795 738.5) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -160.5, 609.79)" filter="url(#Rectangle_927-16)">
+        <rect id="Rectangle_927-34" data-name="Rectangle 927" width="4" height="97" rx="2" transform="translate(684 160.5) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -160.5, 609.79)" filter="url(#Rectangle_928-16)">
+        <rect id="Rectangle_928-34" data-name="Rectangle 928" width="4" height="83" rx="2" transform="translate(584 166.5) rotate(90)" fill="#b50f0f"/>
+      </g>
+    </g>
+    <g id="Group_2109" data-name="Group 2109" transform="translate(893.795 659.5) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -81.5, 609.79)" filter="url(#Rectangle_927-17)">
+        <rect id="Rectangle_927-35" data-name="Rectangle 927" width="4" height="50" rx="2" transform="translate(637 81.5) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -81.5, 609.79)" filter="url(#Rectangle_928-17)">
+        <rect id="Rectangle_928-35" data-name="Rectangle 928" width="4" height="9" rx="2" transform="translate(584 87.5) rotate(90)" fill="#b50f0f"/>
+      </g>
+    </g>
+    <g id="Group_2110" data-name="Group 2110" transform="translate(893.795 646.5) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -68.5, 609.79)" filter="url(#Rectangle_927-18)">
+        <rect id="Rectangle_927-36" data-name="Rectangle 927" width="4" height="77" rx="2" transform="translate(664 68.5) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -68.5, 609.79)" filter="url(#Rectangle_928-18)">
+        <rect id="Rectangle_928-36" data-name="Rectangle 928" width="4" height="53" rx="2" transform="translate(584 74.5) rotate(90)" fill="#b50f0f"/>
+      </g>
+    </g>
+    <g id="Data_Display_Tooltip_Tooltip" data-name="Data Display / Tooltip / Tooltip" transform="translate(920 718)">
+      <g id="Tip" transform="translate(-3 4)">
+        <g id="Container" transform="translate(1 -4)">
+          <g id="Surfaces_Paper_Variant_Round" data-name="Surfaces / Paper / Variant / Round" transform="translate(2)">
+            <g transform="matrix(1, 0, 0, 1, -636, -140)" filter="url(#Rectangle)">
+              <rect id="Rectangle-2" data-name="Rectangle" width="151.351" height="70" rx="4" transform="translate(641.65 140)" fill="#fff"/>
+            </g>
+            <path id="Arrow" d="M4,0,8,6H0Z" transform="translate(0 39) rotate(-90)" fill="#fff"/>
+          </g>
+        </g>
+        <text id="Label" transform="translate(18 11)" fill="rgba(0,0,0,0.87)" font-size="10" font-family="Lato-Regular, Lato" letter-spacing="0.025em"><tspan x="0" y="0">BETS:</tspan><tspan x="0" y="12">TURNOVER:</tspan><tspan x="0" y="24">% TURNOVER:</tspan><tspan x="0" y="36">PROFIT:</tspan><tspan x="0" y="48">ROI:</tspan></text>
+        <text id="Label-2" data-name="Label" transform="translate(95 11)" fill="rgba(0,0,0,0.87)" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.025em"><tspan x="0" y="0">9521</tspan><tspan x="0" y="12">$1,387,463</tspan><tspan x="0" y="24">2.96%</tspan><tspan x="0" y="36">-$35,090</tspan><tspan x="0" y="48">-0.68%</tspan></text>
+      </g>
+    </g>
+    <text id="_0.5M" data-name="$0.5M" transform="translate(385 876)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$0.5M</tspan></text>
+    <text id="_1.0M" data-name="$1.0M" transform="translate(414 876)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$1.0M</tspan></text>
+    <text id="_1.5m" data-name="$1.5m" transform="translate(443 876)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$1.5M</tspan></text>
+    <text id="_2.0m" data-name="$2.0m" transform="translate(472 876)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$2.0M</tspan></text>
+    <text id="_2.5m" data-name="$2.5m" transform="translate(500 876)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$2.5M</tspan></text>
+    <text id="_3.0M" data-name="$3.0M" transform="translate(529 876)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$3.0M</tspan></text>
+    <text id="_3.5M" data-name="$3.5M" transform="translate(558 876)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$3.5M</tspan></text>
+    <text id="_4.0M" data-name="$4.0M" transform="translate(587 876)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="0" y="0">$4.0M</tspan></text>
+    <text id="_4.5M" data-name="$4.5M" transform="translate(634 876)" fill="#fff" font-size="6" font-family="Lato-Bold, Lato" font-weight="700" opacity="0.6"><tspan x="-17.535" y="0">$4.5M</tspan></text>
+    <g id="Group_2120" data-name="Group 2120" transform="translate(1428.031 70) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, 508, 1144.03)" filter="url(#Rectangle_942-2)">
+        <rect id="Rectangle_942-9" data-name="Rectangle 942" width="26" height="1" transform="translate(210 44) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <rect id="Rectangle_945-2" data-name="Rectangle 945" width="26" height="126" transform="translate(552 935.031)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_2121" data-name="Group 2121" transform="translate(1371.258 104) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, 474, 1087.26)" filter="url(#Rectangle_942-3)">
+        <rect id="Rectangle_942-10" data-name="Rectangle 942" width="26" height="1" transform="translate(153 78) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <rect id="Rectangle_945-3" data-name="Rectangle 945" width="26" height="69" transform="translate(552 935.258)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_2122" data-name="Group 2122" transform="translate(1406 138) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, 440, 1122)" filter="url(#Rectangle_942-4)">
+        <rect id="Rectangle_942-11" data-name="Rectangle 942" width="26" height="1" transform="translate(188 112) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <rect id="Rectangle_945-4" data-name="Rectangle 945" width="26" height="104" transform="translate(552 935)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_2123" data-name="Group 2123" transform="translate(1547.994 172) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, 406, 1263.99)" filter="url(#Rectangle_942-5)">
+        <rect id="Rectangle_942-12" data-name="Rectangle 942" width="26" height="1" transform="translate(330 146) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <rect id="Rectangle_945-5" data-name="Rectangle 945" width="26" height="246" transform="translate(552 934.994)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_2124" data-name="Group 2124" transform="translate(1366 206) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, 372, 1082)" filter="url(#Rectangle_942-6)">
+        <rect id="Rectangle_942-13" data-name="Rectangle 942" width="26" height="1" transform="translate(148 180) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <rect id="Rectangle_945-6" data-name="Rectangle 945" width="26" height="64" transform="translate(552 935)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_2125" data-name="Group 2125" transform="translate(1398.721 240) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, 338, 1114.72)" filter="url(#Rectangle_942-7)">
+        <rect id="Rectangle_942-14" data-name="Rectangle 942" width="26" height="1" transform="translate(181 214) rotate(90)" fill="#0f73b5"/>
+      </g>
+      <rect id="Rectangle_945-7" data-name="Rectangle 945" width="26" height="97" transform="translate(552 934.721)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="_4_305_114_136_617" data-name="$4,305,114
+$136,617" transform="translate(606 735)" fill="#15b50f" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="-55.58" y="0">$4,305,114</tspan><tspan x="-46.44" y="12">$136,617</tspan></text>
+    <text id="saturday" transform="translate(300 834)" fill="#fff" font-size="8" font-family="Lato-Medium, Lato" font-weight="500" opacity="0.6"><tspan x="0" y="0">SATURDAY</tspan></text>
+    <text id="_0.059_" data-name="0.059%" transform="translate(300 850)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em" opacity="0.6"><tspan x="0" y="0">0.059%</tspan></text>
+    <text id="monday" transform="translate(300 664)" fill="#fff" font-size="8" font-family="Lato-Medium, Lato" font-weight="500" opacity="0.6"><tspan x="0" y="0">MONDAY</tspan></text>
+    <text id="_7.805_" data-name="7.805%" transform="translate(300 680)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em" opacity="0.6"><tspan x="0" y="0">7.805%</tspan></text>
+    <text id="tuesday" transform="translate(300 698)" fill="#fff" font-size="8" font-family="Lato-Medium, Lato" font-weight="500" opacity="0.6"><tspan x="0" y="0">TUESDAY</tspan></text>
+    <text id="_0.062_" data-name="0.062%" transform="translate(300 714)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em" opacity="0.6"><tspan x="0" y="0">0.062%</tspan></text>
+    <text id="wednesday" transform="translate(300 732)" fill="#fff" font-size="8" font-family="Lato-Medium, Lato" font-weight="500" opacity="0.6"><tspan x="0" y="0">WEDNESDAY</tspan></text>
+    <text id="_0.031_" data-name="0.031%" transform="translate(300 748)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em" opacity="0.6"><tspan x="0" y="0">0.031%</tspan></text>
+    <text id="thursday" transform="translate(300 766)" fill="#fff" font-size="8" font-family="Lato-Medium, Lato" font-weight="500" opacity="0.6"><tspan x="0" y="0">THURSDAY</tspan></text>
+    <text id="_0.166_" data-name="0.166%" transform="translate(300 782)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em" opacity="0.6"><tspan x="0" y="0">0.166%</tspan></text>
+    <text id="friday" transform="translate(300 800)" fill="#fff" font-size="8" font-family="Lato-Medium, Lato" font-weight="500" opacity="0.6"><tspan x="0" y="0">FRIDAY</tspan></text>
+    <text id="_0.028_" data-name="0.028%" transform="translate(300 816)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em" opacity="0.6"><tspan x="0" y="0">0.028%</tspan></text>
+    <g id="Group_2235" data-name="Group 2235" transform="translate(897 171)">
+      <rect id="background-2" data-name="background" width="30" height="20" rx="4" transform="translate(443 415)" fill="rgba(255,255,255,0.15)"/>
+      <text id="Subtitle_1-4" data-name="Subtitle 1" transform="translate(458 429)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="-9.38" y="0">CSF</tspan></text>
+    </g>
+    <g id="Group_2236" data-name="Group 2236" transform="translate(859 171)">
+      <rect id="background-3" data-name="background" width="30" height="20" rx="4" transform="translate(443 415)" fill="rgba(255,255,255,0.15)"/>
+      <text id="Subtitle_1-5" data-name="Subtitle 1" transform="translate(458 429)" fill="#fff" font-size="10" font-family="Lato-Bold, Lato" font-weight="700" letter-spacing="0.05em"><tspan x="-8.55" y="0">VIP</tspan></text>
+    </g>
+  </g>
+</svg>

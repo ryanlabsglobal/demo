@@ -13,6 +13,8 @@ import logo from "../../assets/logo.png";
 import Image from "next/image";
 import NotificationDropDown from "./NotificationDropDown";
 import IconButton from "@mui/material/IconButton";
+import BusinessIntelligenceTabs from "./BusinessIntelligenceTabs";
+import { Button } from "@mui/material";
 
 //The main component for the navbar is Navigation.tsx
 
@@ -37,6 +39,9 @@ const TopBarNav = () => {
           <Typography sx={{ ml: 2 }} variant="h6" noWrap component="div">
             Business Intelligence
           </Typography>
+        )}
+        {router.pathname === "/business-intelligence" && (
+          <BusinessIntelligenceTabs />
         )}
         {router.pathname === "/bet-stream" && (
           <Typography sx={{ ml: 2 }} variant="h6" noWrap component="div">
@@ -82,14 +87,10 @@ const TopBarNav = () => {
           />
         )}
         <Box sx={{ ml: "auto", mr: 3 }}>
+          <Button sx={{ mr: 2 }} variant="contained" color="error">
+            NOTIFICATIONS
+          </Button>
           <AlertModal />
-          <IconButton
-            onClick={() => setNotification(!notification)}
-            color="primary"
-          >
-            <NotificationsIcon />
-          </IconButton>
-          {notification && <NotificationDropDown />}
         </Box>
       </Toolbar>
     </AppBar>

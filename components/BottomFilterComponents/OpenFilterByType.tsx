@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Box from "@mui/system/Box";
-import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
+import FilterAltOutlinedIcon from "@mui/icons-material/FilterAltOutlined";
 import Checkbox from "@mui/material/Checkbox";
 const OpenFilterByType = () => {
   return (
@@ -15,7 +15,7 @@ const OpenFilterByType = () => {
     >
       <Box sx={{ my: "auto" }}>
         <div style={{ display: "flex" }}>
-          <AccountBalanceWalletIcon />
+          <FilterAltOutlinedIcon />
           <Typography sx={{ ml: 2 }} variant="subtitle2">
             FILTER BY
           </Typography>

@@ -5,9 +5,9 @@ import Image from "next/image";
 import AuthComponent from "../../lib/AuthComponent";
 
 import { Box } from "@mui/system";
-import Dash1 from "../../assets/dashCont_busIntl_row1 (1).svg";
-import Dash2 from "../../assets/dashCont_busIntl_row2 (1).svg";
-import Dash3 from "../../assets/dashCont_busIntl_row3 (1).svg";
+import Dash1 from "../../assets/busIntel_allRow1.svg";
+import Dash2 from "../../assets/busIntel_allRow2.svg";
+import Dash3 from "../../assets/busIntel_allRow3.svg";
 import TradingParamsBottomBar from "../../components/BottomFilterComponents/TradingParamsBottomBar";
 
 import React from "react";

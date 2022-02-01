@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       MuiSlider: {
         styleOverrides: {
           root: {
-            color: "#E200FF",
+            color: "#15B50F",
           },
         },
       },

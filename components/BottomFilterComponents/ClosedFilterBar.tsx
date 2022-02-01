@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/system";
-import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
+import FilterAltOutlinedIcon from "@mui/icons-material/FilterAltOutlined";
 import { Grid, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 import { useMediaQuery } from "@mui/material";
@@ -38,7 +38,7 @@ const ClosedFilterBar = () => {
           <Grid container>
             <Grid item xs={4}>
               <Box sx={{ display: "flex" }}>
-                <AccountBalanceWalletIcon />
+                <FilterAltOutlinedIcon />
                 <Typography sx={{ fontSize: "15px", ml: 1 }} variant="body2">
                   FILTER BY
                 </Typography>

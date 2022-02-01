@@ -14,7 +14,7 @@ const ProfileAndTitle = () => {
         <Typography sx={{ mt: 1 }} variant="body1">
           SHANE CLARKE
         </Typography>
-        <Typography variant="caption">Executive Director @ RACELABS</Typography>
+        <Typography variant="caption">Executive Director @ RACELAB</Typography>
       </Box>
       <Divider
         sx={{

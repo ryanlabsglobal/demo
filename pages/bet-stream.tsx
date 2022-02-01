@@ -6,7 +6,7 @@ import AuthComponent from "../lib/AuthComponent";
 import TradingParamsBottomBar from "../components/BottomFilterComponents/TradingParamsBottomBar";
 import { useRouter } from "next/router";
 
-import tempDash from "../assets/betStream_new.svg";
+import tempDash from "../assets/betStream_table.svg";
 import { Box } from "@mui/system";
 
 const BetStream: NextPage = () => {
@@ -19,7 +19,7 @@ const BetStream: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Box sx={{ mb: "50px", mx: 2 }}>
-        <Box onClick={() => router.push("./player-profiles/20350")}>
+        <Box>
           <Image layout="responsive" src={tempDash} />
         </Box>
       </Box>
